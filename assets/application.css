@@ -231,7 +231,7 @@ h4 {
   visibility: visible;
 }
 .nav-home{
-	background-image: url(../images/nav-home.png);
+	background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/3984c67194e834e0ae80b2403b57858d/nav-home.png));
 	background-repeat: no-repeat;
 	background-position: center;
 	height:18px;
@@ -241,7 +241,7 @@ h4 {
 	}
 
 .nav-home-active{
-	background-image: url(../images/nav-home-active.png);
+	background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/3984c67194e834e0ae80b2403b57858d/nav-home-active.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height:18px;
@@ -270,7 +270,7 @@ h4 {
 
 	}
 .nav-recipes {
-	background-image: url(../images/nav-recipes.png);
+	background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/3984c67194e834e0ae80b2403b57858d/nav-recipes.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height:18px;
@@ -279,7 +279,7 @@ h4 {
 	margin:0 auto;
 	}
 .nav-recipes-active{
-	background-image: url(../images/nav-recipes-active.png);
+	background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/3984c67194e834e0ae80b2403b57858d/nav-recipes-active.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height:18px;
@@ -289,7 +289,7 @@ h4 {
 
 	}
 .nav-events{
-	background-image: url(../images/nav-events.png);
+	background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/3984c67194e834e0ae80b2403b57858d/nav-events.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height:18px;
@@ -298,7 +298,7 @@ h4 {
 	margin:0 auto;
 }
 .nav-events-active{
-	background-image: url(../images/nav-events-active.png);
+	background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/3984c67194e834e0ae80b2403b57858d/nav-events-active.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height:18px;
@@ -345,7 +345,7 @@ h4 {
 	margin:0 auto;
 	}
 .nav-vendors {
-	background-image: url(../images/nav-vendors.png);
+	background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/3984c67194e834e0ae80b2403b57858d/nav-vendors.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height:18px;
@@ -354,7 +354,7 @@ h4 {
 	margin:0 auto;
 	}
 .nav-vendors-active{
-	background-image: url(../images/nav-vendors-active.png);
+	background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/3984c67194e834e0ae80b2403b57858d/nav-vendors-active.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height:18px;
@@ -364,7 +364,7 @@ h4 {
 
 	}
 .nav-gallery {
-	background-image: url(../images/nav-gallery.png);
+	background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/3984c67194e834e0ae80b2403b57858d/nav-gallery.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height:18px;
@@ -373,7 +373,7 @@ h4 {
 	margin:0 auto;
 	}
 .nav-gallery-active{
-	background-image: url(../images/nav-gallery-active.png);
+	background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/3984c67194e834e0ae80b2403b57858d/nav-gallery-active.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height:18px;
