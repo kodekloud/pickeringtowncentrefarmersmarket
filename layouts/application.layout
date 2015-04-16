@@ -1,0 +1,34 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="http://fonts.googleapis.com/css?family=Arimo:400,700" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Asul" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?v=2.1.5" media="screen">
+<link href="css/jquery.mCustomScrollbar.css" rel="stylesheet">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>!window.jQuery && document.write(unescape('%3Cscript src="js/minified/jquery-1.9.1.min.js"%3E%3C/script%3E'))</script>
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+
+<!-- custom scrollbars plugin -->
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script>
+		(function($){
+			$(window).load(function(){
+					$("#gallery-content,#events-content,#vendors2b-content, #recipes-content2, #vendors-content, #vendors-content2, #recipes-content").mCustomScrollbar({
+					scrollButtons:{
+						enable:true
+					},
+					theme:"light-thick"
+				});
+});
+			$(".fancybox").fancybox({
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
+		})(jQuery);
+	</script><title>Home | Pickering Town Centre Farmers Market</title>
+  <link rel="stylesheet" href="css/default.css" type="text/css" media="screen">
+      <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen">
+<style type="text/css">.fancybox-margin{margin-right:0px;}</style><style type="text/css"></style></head>
