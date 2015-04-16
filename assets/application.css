@@ -113,7 +113,7 @@
 
 @charset "UTF-8";
 body {
-	background-image: url(../images/bg.jpg);
+	background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/3984c67194e834e0ae80b2403b57858d/bg.jpg);
 	background-repeat: repeat;
 }
 a img {
