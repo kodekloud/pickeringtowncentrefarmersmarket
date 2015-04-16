@@ -308,7 +308,7 @@ h4 {
 
 	}
 .nav-partners {
-	background-image: url(../images/nav-partners.png);
+	background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/3984c67194e834e0ae80b2403b57858d/nav-partners.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height:18px;
@@ -317,7 +317,7 @@ h4 {
 	margin:0 auto;
 	}
 .nav-partners-active{
-	background-image: url(../images/nav-partners-active.png);
+	background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/3984c67194e834e0ae80b2403b57858d/nav-partners-active.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height:18px;
