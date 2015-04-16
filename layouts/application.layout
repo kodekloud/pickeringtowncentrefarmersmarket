@@ -32,3 +32,34 @@
   <link rel="stylesheet" href="/default.css" type="text/css" media="screen">
     <link rel="stylesheet" href="/nivo-slider.css" type="text/css" media="screen">
 <style type="text/css">.fancybox-margin{margin-right:0px;}</style><style type="text/css"></style></head>
+
+<body style="zoom: 1;">
+    <div id="wrap">
+        <div id="home">
+            <div id="nav">
+                <a href="/"><img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/3984c67194e834e0ae80b2403b57858d/FM-logo.png" width="212" height="129" alt="Farmers Market" class="logo"></a>
+                <ul>
+                    <li><a class="nav-home-active" href="/">&nbsp;</a></li>
+                    
+                    <li><a href="/recipes" class="nav-recipes">&nbsp;</a></li>
+                    <li><a href="/events" class="nav-events">&nbsp;</a></li>
+                    <li><a href="/partners" class="nav-partners">&nbsp;</a></li>
+                
+                    <li><a href="/vendors" class="nav-vendors">&nbsp;</a>
+                    <ul><li style="padding-top:10px;"><a href="/vendors" class="secondary">Vendors List</a></li><li><a href="/vendors-form" class="secondary">Vendors Application</a></li></ul>
+                    </li>
+                    <li><a href="/gallery" class="nav-gallery">&nbsp;</a></li>
+                    <li>
+                        <a href="https://www.facebook.com/Pickeringtowncentre" target="_blank"><img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/3984c67194e834e0ae80b2403b57858d/facebook.png" alt="facebook"></a> 
+                        <a href="http://twitter.com/PickeringTC" target="_blank"><img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/3984c67194e834e0ae80b2403b57858d/twitter.png" width="31" height="29" alt="twitter"></a> 
+                        <a href="http://instagram.com/pickeringtowncentre" target="_blank"><img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/3984c67194e834e0ae80b2403b57858d/instagram.png" width="31" height="29" alt="instagram"></a>
+                    </li>
+                 
+                </ul>
+                <div id="navlogos" style="margin-top:100px;">
+                <img src="images/PTC-logo2.png" alt="pickering town centre"></div>
+             </div>
+        </div>
+    </div>
+    
+</body>
