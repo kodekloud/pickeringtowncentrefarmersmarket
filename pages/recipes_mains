@@ -1,0 +1,238 @@
+<script>
+    clearActiveMenu();
+    $('#recipes-nav').addClass('nav-recipes-active');
+    $('.content-top').attr("id", "recipes");
+</script>
+
+<div id="recipes-content2" class="mCustomScrollbar _mCS_1"><div class="mCustomScrollBox mCS-light-thick" id="mCSB_1" style="position:relative; height:100%; overflow:hidden; max-width:100%;"><div class="mCSB_container" style="position: relative; top: 0px;">
+<h1 style="margin-bottom:15px; margin-right:80px;">Recipes</h1>
+<div style="text-align:center; margin:20px 10px 20px 0;">
+<a href="/recipes-mains" class="white-recipe">Mains  </a> <a href="recipes-sides.php" class="green-recipe"> ·  Sides  · </a> <a href="/recipes-desserts" class="green-recipe"> Desserts · </a> <a href="/recipes-special" class="green-recipe">Special </a>
+</div>
+
+
+<div class="individual-recipe">
+<div>
+<div class="recipe-lb">
+<a class="fancybox" rel="gallery1" href="images/mains/lg-recipe-corn2013.jpg"><img src="images/mains/recipe-corn.jpg" width="139" height="161"></a>
+<h4>Corn<br> Recipe</h4>
+</div>
+<div class="facts-lb">
+<a class="fancybox" rel="gallery1" href="images/mains/lg-facts-corn2013.jpg"><img src="images/mains/facts-corn.jpg" width="139" height="161"></a>
+<h4>Corn <br>Facts</h4>
+</div><br clear="all"></div>
+<a href="images/mains/farmersmarket-corn-tex-mex-bake-printable.pdf" target="_blank"><img src="images/print.jpg" width="106" height="43" alt="printable version" class="print"></a>
+<img src="images/icons/cheese.jpg" width="50" height="50" class="icon">
+<div class="icon-txt"><a href="http://www.dairygoodness.ca/cheese/all-you-need-is-cheese/" target="_blank">Recipe and photo courtesy<br>of All You Need Is Cheese</a></div>
+<br clear="all">
+</div>
+
+
+<div class="individual-recipe">
+<div>
+<div class="recipe-lb">
+<a class="fancybox" rel="gallery1" href="images/mains/lg-recipe-tomato2013.jpg"><img src="images/mains/recipe-tomato.jpg" width="139" height="161"></a>
+<h4>Tomato<br> Recipe</h4>
+</div>
+<div class="facts-lb">
+<a class="fancybox" rel="gallery1" href="images/mains/lg-facts-tomato2013.jpg"><img src="images/mains/facts-tomato.jpg" width="139" height="161"></a>
+<h4>Tomato<br> Facts</h4>
+</div>
+<br clear="all"></div>
+<a href="images/mains/farmersmarket-spicy-tomato-salad-printable.pdf" target="_blank"><img src="images/print.jpg" width="106" height="43" alt="printable version" class="print" style="margin-top:-10px;"></a>
+<img src="images/icons/turkey.jpg" width="50" height="50" class="icon" style="margin-top:-15px;">
+<div class="icon-txt"><a href="http://www.ont-turkey.on.ca" target="_blank">Recipe and photo courtesy<br>of Ontario Turkey</a></div>
+<br clear="all">
+</div>
+
+<div class="individual-recipe">
+<div>
+<div class="recipe-lb">
+<a class="fancybox" rel="gallery1" href="images/mains/lg-recipe-onion2013.jpg"><img src="images/mains/recipe-onion.jpg" width="139" height="161"></a>
+<h4>Onion<br> Recipe</h4>
+</div>
+<div class="facts-lb">
+<a class="fancybox" rel="gallery1" href="images/mains/lg-facts-onion2013.jpg"><img src="images/mains/facts-onion.jpg" width="139" height="161"></a>
+<h4>Onion<br> Facts</h4>
+</div>
+<br clear="all"></div>
+<a href="farmersmarket-Caramelized-Onion-Potato-Scramble-Printable.pdf" target="_blank"><img src="images/print.jpg" width="106" height="43" alt="printable version" class="print" style="margin-top:-10px;"></a>
+<img src="images/icons/getcracking.jpg" class="icon" style="margin-top:-15px;">
+<div class="icon-txt"><a href="http://www.eggs.ca/" target="_blank">Recipe and photo courtesy<br>of Egg Farmers of Canada</a></div>
+<br clear="all">
+</div>
+
+
+<div class="individual-recipe">
+<div>
+<div class="recipe-lb">
+<a class="fancybox" rel="gallery1" href="images/mains/lg-recipe-beans2013.jpg"><img src="images/mains/recipe-bean.jpg" width="139" height="161"></a>
+<h4>Bean<br> Recipe</h4>
+</div>
+<div class="facts-lb">
+<a class="fancybox" rel="gallery1" href="images/mains/lg-facts-beans2013.jpg"><img src="images/mains/facts-bean.jpg" width="139" height="161"></a>
+<h4>Bean<br> Facts</h4>
+</div>
+<br clear="all"></div>
+<a href="images/mains/farmersmarket-penne-salmon-herbs-garlic-printable.pdf" target="_blank"><img src="images/print.jpg" width="106" height="43" alt="printable version" class="print" style="margin-top:-10px;"></a>
+<img src="images/icons/milk.jpg" width="50" height="50" class="icon">
+<div class="icon-txt"><a href="http://www.dairyfarmers.ca/" target="_blank">Recipe and photo courtesy<br>of Dairy Farmers of Canada</a></div>
+<br clear="all">
+</div>
+
+<div class="individual-recipe">
+<div>
+<div class="recipe-lb">
+<a class="fancybox" rel="gallery1" href="images/mains/lg-recipe-raspberry2013.jpg"><img src="images/mains/recipe-raspberry.jpg" width="139" height="161"></a>
+<h4>Raspberry<br> Recipe</h4>
+</div>
+<div class="facts-lb">
+<a class="fancybox" rel="gallery1" href="images/mains/lg-facts-raspberry2013.jpg"><img src="images/mains/facts-raspberry.jpg" width="139" height="161"></a>
+<h4>Raspberry<br> Facts</h4>
+</div>
+<br clear="all"></div>
+<a href="images/mains/farmersmarket-raspberry-stuffed-french-toast-printable.pdf" target="_blank"><img src="images/print.jpg" width="106" height="43" alt="printable version" class="print" style="margin-top:-10px;"></a>
+<img src="images/icons/berry.jpg" width="50" height="50" class="icon">
+<div class="icon-txt"><a href="http://ontarioberries.com/" target="_blank">Recipe and photo courtesy<br>of Ontario Berry Growers</a></div>
+<br clear="all">
+</div>
+
+<div class="individual-recipe">
+<div>
+<div class="recipe-lb">
+<a class="fancybox" rel="gallery1" href="images/mains/lg-recipe-peach2013.jpg"><img src="images/mains/recipe-peach.jpg" width="139" height="161"></a>
+<h4>Peach<br> Recipe</h4>
+</div>
+<div class="facts-lb">
+<a class="fancybox" rel="gallery1" href="images/mains/lg-facts-peach2013.jpg"><img src="images/mains/facts-peach.jpg" width="139" height="161"></a>
+<h4>Peach<br> Facts</h4>
+</div>
+<br clear="all"></div>
+<a href="images/mains/farmersmarket-peach-glazed-ribs-printable.pdf" target="_blank"><img src="images/print.jpg" width="106" height="43" alt="printable version" class="print" style="margin-top:-10px;"></a>
+<img src="images/icons/fruit.jpg" width="50" height="50" class="icon">
+<div class="icon-txt"><a href="http://www.ontariotenderfruit.ca/" target="_blank">Recipe and photo courtesy<br>of Ontario Tender Fruit</a></div>
+<br clear="all">
+</div>
+
+<div class="individual-recipe">
+<div>
+<div class="recipe-lb">
+<a class="fancybox" rel="gallery1" href="images/mains/lg-recipe-potato2013.jpg"><img src="images/mains/recipe-potato.jpg" width="139" height="161"></a>
+<h4>Potato<br> Recipe</h4>
+</div>
+<div class="facts-lb">
+<a class="fancybox" rel="gallery1" href="images/mains/lg-facts-potato2013.jpg"><img src="images/mains/facts-potato.jpg" width="139" height="161"></a>
+<h4>Potato<br> Facts</h4>
+</div>
+<br clear="all"></div>
+<a href="images/mains/farmersmarket-potato-tandoori-recipe-printable.pdf" target="_blank"><img src="images/print.jpg" width="106" height="43" alt="printable version" class="print" style="margin-top:-10px;"></a>
+<img src="images/icons/potato.jpg" width="50" height="50" class="icon">
+<div class="icon-txt"><a href="http://www.ontariopotatoes.ca/" target="_blank">Recipe and photo courtesy<br>of Ontario Potato Board</a></div>
+<br clear="all">
+</div>
+
+<div class="individual-recipe">
+<div>
+<div class="recipe-lb">
+<a class="fancybox" rel="gallery1" href="images/mains/lg-recipe-cauliflower.jpg"><img src="images/mains/recipe-cauliflower2012.jpg" width="139" height="161"></a>
+<h4>Cauliflower<br> Recipe</h4>
+</div>
+<div class="facts-lb">
+<a class="fancybox" rel="gallery1" href="images/mains/lg-facts-cauliflower.jpg"><img src="images/mains/facts-cauliflower2012.jpg" width="139" height="161"></a>
+<h4>Cauliflower<br> Facts</h4>
+</div>
+<br clear="all"></div>
+<a href="images/mains/farmersmarket-Cauliflower-Printable.pdf" target="_blank"><img src="images/print.jpg" width="106" height="43" alt="printable version" class="print" style="margin-top:-10px;"></a>
+<img src="images/icons/milk.jpg" width="50" height="50" class="icon">
+<div class="icon-txt"><a href="http://www.dairygoodness.ca/" target="_blank">Recipe and photo courtesy<br>of Dairy Farmers of Canada</a></div>
+<br clear="all">
+</div>
+
+<div class="individual-recipe">
+<div>
+<div class="recipe-lb">
+<a class="fancybox" rel="gallery1" href="images/mains/lg-recipe-onion.jpg"><img src="images/mains/recipe-onion2012.jpg" width="139" height="161"></a>
+<h4>Onion<br> Recipe</h4>
+</div>
+<div class="facts-lb">
+<a class="fancybox" rel="gallery1" href="images/mains/lg-facts-onion.jpg"><img src="images/mains/facts-onion2012.jpg" width="139" height="161"></a>
+<h4>Onion<br> Facts</h4>
+</div>
+<br clear="all"></div>
+<a href="images/mains/farmersmarket-Onion-Printable.pdf" target="_blank"><img src="images/print.jpg" width="106" height="43" alt="printable version" class="print" style="margin-top:-10px;"></a>
+<img src="images/icons/milk.jpg" width="50" height="50" class="icon">
+<div class="icon-txt"><a href="http://www.dairygoodness.ca/" target="_blank">Recipe and photo courtesy<br>of Dairy Farmers of Canada</a></div>
+<br clear="all">
+</div>
+
+<div class="individual-recipe">
+<div>
+<div class="recipe-lb">
+<a class="fancybox" rel="gallery1" href="images/mains/lg-recipe-blueberry.jpg"><img src="images/mains/recipe-blueberry2012.jpg" width="139" height="161"></a>
+<h4>Blueberry<br> Recipe</h4>
+</div>
+<div class="facts-lb">
+<a class="fancybox" rel="gallery1" href="images/mains/lg-facts-blueberry.jpg"><img src="images/mains/facts-blueberry2012.jpg" width="139" height="161"></a>
+<h4>Blueberry<br> Facts</h4>
+</div>
+<br clear="all"></div>
+<a href="images/mains/farmersmarket-Blueberry-Printable.pdf" target="_blank"><img src="images/print.jpg" width="106" height="43" alt="printable version" class="print" style="margin-top:-10px;"></a>
+<img src="images/icons/berry.jpg" width="50" height="50" class="icon">
+<div class="icon-txt"><a href="http://ontarioberries.com/" target="_blank">Recipe and photo courtesy<br>of Ontario Berry Growers</a></div>
+<br clear="all">
+</div>
+
+<div class="individual-recipe">
+<div>
+<div class="recipe-lb">
+<a class="fancybox" rel="gallery1" href="images/mains/lg-recipe-beans.jpg"><img src="images/mains/recipe-beans2012.jpg" width="139" height="161"></a>
+<h4>Bean<br> Recipe</h4>
+</div>
+<div class="facts-lb">
+<a class="fancybox" rel="gallery1" href="images/mains/lg-facts-bean.jpg"><img src="images/mains/facts-beans2012.jpg" width="139" height="161"></a>
+<h4>Bean<br> Facts</h4>
+</div>
+<br clear="all"></div>
+<a href="images/mains/farmersmarket-Blueberry-Printable.pdf" target="_blank"><img src="images/print.jpg" width="106" height="43" alt="printable version" class="print" style="margin-top:-10px;"></a>
+<img src="images/icons/turkey.jpg" width="50" height="50" class="icon">
+<div class="icon-txt"><a href="http://www.ont-turkey.on.ca" target="_blank">Recipe and photo courtesy<br>of Ontario Turkey</a></div>
+<br clear="all">
+</div>
+
+<div class="individual-recipe">
+<div>
+<div class="recipe-lb">
+<a class="fancybox" rel="gallery1" href="images/mains/lg-recipe-peach.jpg"><img src="images/mains/recipe-peach2012.jpg" width="139" height="161"></a>
+<h4>Peach<br> Recipe</h4>
+</div>
+<div class="facts-lb">
+<a class="fancybox" rel="gallery1" href="images/mains/lg-facts-peach.jpg"><img src="images/mains/facts-peach2012.jpg" width="139" height="161"></a>
+<h4>Peach<br> Facts</h4>
+</div>
+<br clear="all"></div>
+<a href="images/mains/farmersmarket-Peach-Printable.pdf" target="_blank"><img src="images/print.jpg" width="106" height="43" alt="printable version" class="print" style="margin-top:-10px;"></a>
+<img src="images/icons/fruit.jpg" width="50" height="50" class="icon">
+<div class="icon-txt"><a href="http://www.ontariotenderfruit.ca/" target="_blank">Recipe and photo courtesy<br>of Ontario Tender Fruit Producers</a></div>
+<br clear="all">
+</div>
+
+
+
+<div class="individual-recipe">
+<div>
+<div class="recipe-lb">
+<a class="fancybox" rel="gallery1" href="images/mains/lg-recipe-potato.jpg"><img src="images/mains/recipe-potato2012.jpg" width="139" height="161"></a>
+<h4>Potato<br> Recipe</h4>
+</div>
+<div class="facts-lb">
+<a class="fancybox" rel="gallery1" href="images/mains/lg-facts-potato.jpg"><img src="images/mains/facts-potato2012.jpg" width="139" height="161"></a>
+<h4>Potato<br> Facts</h4>
+</div>
+<br clear="all"></div>
+<a href="images/mains/farmersmarket-Potato-Printablee.pdf" target="_blank"><img src="images/print.jpg" width="106" height="43" alt="printable version" class="print" style="margin-top:-10px;"></a>
+<img src="images/icons/potato.jpg" width="50" height="50" class="icon">
+<div class="icon-txt"><a href="http://www.ontariopotatoes.ca/" target="_blank">Recipe and photo courtesy<br>of Ontario Potato Board</a></div>
+<br clear="all">
+</div>
+
+</div><div class="mCSB_scrollTools" style="position: absolute; display: block;"><a class="mCSB_buttonUp" oncontextmenu="return false;"></a><div class="mCSB_draggerContainer"><div class="mCSB_dragger" style="position: absolute; height: 84px; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="position: relative; line-height: 84px;"></div></div><div class="mCSB_draggerRail"></div></div><a class="mCSB_buttonDown" oncontextmenu="return false;"></a></div></div></div>
