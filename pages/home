@@ -1,10 +1,8 @@
 <div class="slider-wrapper theme-default">
     <div id="slider" class="nivoSlider">
         <img src="images/bg-home3.png" data-thumb="images/bg-home3.png" alt="" style="display: none;">
-     
-        
-    <img class="nivo-main-image" src="images/bg-home3.png" style="display: inline;"><div class="nivo-caption"></div></div>
-    <div id="htmlcaption" class="nivo-html-caption">
-        
+        <img class="nivo-main-image" src="images/bg-home3.png" style="display: inline;">
+        <div class="nivo-caption"></div>
     </div>
+    <div id="htmlcaption" class="nivo-html-caption"></div>
 </div>
