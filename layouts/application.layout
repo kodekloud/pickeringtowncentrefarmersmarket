@@ -35,7 +35,7 @@
 
 <body style="zoom: 1;">
     <div id="wrap">
-        <div id="home">
+        <div class="content-top" id="home">
             <div id="nav">
                 <a href="/"><img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/3984c67194e834e0ae80b2403b57858d/FM-logo.png" width="212" height="129" alt="Farmers Market" class="logo"></a>
                 <ul>
