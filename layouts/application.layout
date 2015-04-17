@@ -59,6 +59,9 @@
                 <div id="navlogos" style="margin-top:100px;">
                 <img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/3984c67194e834e0ae80b2403b57858d/PTC-logo2.png" alt="pickering town centre"></div>
              </div>
+             
+            {{yield}}
+
              <div class="slider-wrapper theme-default">
                         <div id="slider" class="nivoSlider">
                             <img src="./Home   Pickering Town Centre Farmers Market_files/bg-home3.png" data-thumb="images/bg-home3.png" alt="" style="display: none; width: 960px;">
