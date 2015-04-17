@@ -76,7 +76,7 @@
 }
 
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-	background-image: url('../images/fancybox_sprite.png');
+	background-image: url('http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/fancybox_sprite.png');
 }
 
 #fancybox-loading {
