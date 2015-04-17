@@ -1,5 +1,7 @@
 <script>
     clearActiveMenu();
+    $('#home-nav').addClass('nav-home-active');
+
 </script>
 <div class="slider-wrapper theme-default">
     <div id="slider" class="nivoSlider">
