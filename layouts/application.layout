@@ -55,8 +55,7 @@ function clearActiveMenu(){
 		})(jQuery);
 	</script>
     <title>{{meta_title}}</title>
-  <link rel="stylesheet" href="/default.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="/slider.css" type="text/css" media="screen">
+   
 <style type="text/css">.fancybox-margin{margin-right:0px;}</style><style type="text/css"></style></head>
 
 <body style="zoom: 1;">
