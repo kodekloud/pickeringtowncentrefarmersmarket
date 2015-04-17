@@ -35,24 +35,24 @@
             </div>
     
     
-            <div class="individual-recipe">
-        <div>
-        <div class="recipe-lb">
-        <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/lg-recipe-tomato2013.jpg"><img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/lg-recipe-tomato2013.jpg" width="140" height="200"></a>
-        <h4>Tomato<br> Recipe</h4>
-        </div>
-        <div class="facts-lb">
-        <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/lg-facts-tomato2013.jpg"><img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/lg-facts-tomato2013.jpg" width="140" height="200"></a>
-        <h4>Tomato<br> Facts</h4>
-        </div>
-        <br clear="all"></div>
-        
-        <a href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/farmersmarket-corn-tex-mex-bake-printable.pdf" target="_blank">
-        <img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/print.jpg" width="106" height="43" alt="printable version" class="print"></a>
-        <img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/cheese.jpg" width="50" height="50" class="icon">
-               
-        <div class="icon-txt"><a href="http://www.ont-turkey.on.ca" target="_blank">Recipe and photo courtesy<br>of Ontario Turkey</a></div>
-        <br clear="all">
+        <div class="individual-recipe">
+            <div>
+            <div class="recipe-lb">
+            <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/lg-recipe-tomato2013.jpg"><img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/lg-recipe-tomato2013.jpg" width="140" height="200"></a>
+            <h4>Tomato<br> Recipe</h4>
+            </div>
+            <div class="facts-lb">
+            <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/lg-facts-tomato2013.jpg"><img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/lg-facts-tomato2013.jpg" width="140" height="200"></a>
+            <h4>Tomato<br> Facts</h4>
+            </div>
+            <br clear="all"></div>
+            
+            <a href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/farmersmarket-spicy-tomato-salad-printable.pdf" target="_blank">
+            <img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/print.jpg" width="106" height="43" alt="printable version" class="print"></a>
+            <img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/turkey.jpg" width="50" height="50" class="icon">
+                   
+            <div class="icon-txt"><a href="http://www.ont-turkey.on.ca" target="_blank">Recipe and photo courtesy<br>of Ontario Turkey</a></div>
+            <br clear="all">
         </div>
     
         <div class="individual-recipe">
