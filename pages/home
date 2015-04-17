@@ -1,7 +1,7 @@
 <div class="slider-wrapper theme-default">
     <div id="slider" class="nivoSlider">
-        <img src="images/bg-home3.png" data-thumb="images/bg-home3.png" alt="" style="display: none;">
-        <img class="nivo-main-image" src="images/bg-home3.png" style="display: inline;">
+        <img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/eb3ed0d7f0ce42b541845fd2161323bd/bg-home3.png" data-thumb="images/bg-home3.png" alt="" style="display: none;">
+        <img class="nivo-main-image" src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/eb3ed0d7f0ce42b541845fd2161323bd/bg-home3.png" style="display: inline;">
         <div class="nivo-caption"></div>
     </div>
     <div id="htmlcaption" class="nivo-html-caption"></div>
