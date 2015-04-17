@@ -242,7 +242,16 @@
 </div>
 
 
-
+<div class="mCSB_scrollTools" style="position: absolute; display: block;">
+    <a class="mCSB_buttonUp" oncontextmenu="return false;"></a>
+    <div class="mCSB_draggerContainer">
+        <div class="mCSB_dragger" style="position: absolute; height: 84px; top: 0px;" oncontextmenu="return false;">
+            <div class="mCSB_dragger_bar" style="position: relative; line-height: 84px;"></div>
+        </div>
+        <div class="mCSB_draggerRail"></div>
+    </div>
+    <a class="mCSB_buttonDown" oncontextmenu="return false;"></a>
+</div>
     
     
 </div></div>
