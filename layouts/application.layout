@@ -4,7 +4,7 @@
 <link href="http://fonts.googleapis.com/css?family=Asul" rel="stylesheet" type="text/css">
 <link href="/application.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="/jquery.fancybox.css" media="screen">
-<link href="/jquery.mCustomScrollbar.css" rel="stylesheet">
+<link href="/scroll.css" rel="stylesheet">
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
