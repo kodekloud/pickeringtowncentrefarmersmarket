@@ -11,11 +11,8 @@
             <div style="text-align:center; margin:20px 10px 20px 0;">
                 <a href="/recipes_mains" class="green-recipe">Mains  </a> <a href="/recipes_sides" class="white-recipe"> ·  Sides  · </a> <a href="/recipes_desserts" class="green-recipe"> Desserts · </a> <a href="/recipes_special" class="green-recipe">Special </a>
             </div>
-            <div id="recipe-container"></div>
-            <script id="template" type="x-tmpl-mustache">
-                {{#}}
-                <div class="individual-recipe">
-                    <div>
+            <div class="individual-recipe">
+                <div>
                     <div class="recipe-lb">
                     <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/lg-recipe-cauliflower2013.jpg"><img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/lg-recipe-cauliflower2013.jpg" width="140" height="200"></a>
                     <h4>Cauliflower<br> Recipe</h4>
@@ -29,9 +26,7 @@
                     <img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/cheese.jpg" width="50" height="50" class="icon">
                     <div class="icon-txt"><a href="http://www.dairygoodness.ca/cheese/all-you-need-is-cheese/" target="_blank">Recipe and photo courtesy<br>of All You Need Is Cheese</a></div>
                     <br clear="all">
-                </div>
-                {{/}}
-            </script>   
+            </div>
             <div class="individual-recipe">
                 <div>
                 <div class="recipe-lb">
@@ -68,18 +63,3 @@
         </div>
     </div>
 </div>
-<script>
-$(document).ready(function() {
-    function renderPageData(){
-        renderRepoListTemplate('#blog_tile_template', '#list-content',getRepoDetailsByName("pretty-great-renderings"));
-    }
-    
-    loadRecipe(renderPageData);
-}); 
-function loadUser() {
-  var template = $('#template').html();
-  Mustache.parse(template);   // optional, speeds up future uses
-  var rendered = Mustache.render(template, {name: "Luke"});
-  $('#target').html(rendered);
-}
-</script>
