@@ -8,10 +8,10 @@
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="/jquery.fancybox.js"></script>
+<script type="text/javascript" src="/fancybox.js"></script>
 
 <!-- custom scrollbars plugin -->
-<script src="/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="/scroll.js"></script>
 
 <script>
 
