@@ -1,6 +1,7 @@
 <script>
     clearActiveMenu();
     $('#recipes-nav').addClass('nav-recipes-active');
+    $('.content-top').attr("id", "recipes");
 </script>
 
 <div id="recipes-content" class="mCustomScrollbar _mCS_1">
