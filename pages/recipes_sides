@@ -3,3 +3,9 @@
     $('#recipes-nav').addClass('nav-recipes-active');
     $('.content-top').attr("id", "recipes");
 </script>
+<div id="recipes-content2" class="mCustomScrollbar _mCS_1">
+    <div class="mCustomScrollBox mCS-light-thick" id="mCSB_1">
+        <div class="mCSB_container">
+        </div>
+    </div>
+</div>
