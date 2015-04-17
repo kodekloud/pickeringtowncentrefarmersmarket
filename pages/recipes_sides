@@ -1,0 +1,5 @@
+<script>
+    clearActiveMenu();
+    $('#recipes-nav').addClass('nav-recipes-active');
+    $('.content-top').attr("id", "recipes");
+</script>
