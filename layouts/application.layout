@@ -62,17 +62,7 @@
              
             {{yield}}
 
-             <div class="slider-wrapper theme-default">
-                        <div id="slider" class="nivoSlider">
-                            <img src="./Home   Pickering Town Centre Farmers Market_files/bg-home3.png" data-thumb="images/bg-home3.png" alt="" style="display: none; width: 960px;">
-                         
-                            
-                        <img class="nivo-main-image" src="./Home   Pickering Town Centre Farmers Market_files/bg-home3.png" style="display: inline; width: 960px; height: auto;"><div class="nivo-caption"></div></div>
-                        <div id="htmlcaption" class="nivo-html-caption">
-                            
-                        </div>
-                    </div>
-            <br clear="all">
+
 
         </div>
         <div id="footer">
