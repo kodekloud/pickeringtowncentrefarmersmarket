@@ -23,21 +23,23 @@
     var styleNav = ['style_all','style_file', 'shop', 'attract', 'spotted', 'consultations', 'setters'];
     var contactNav = ['contact_us', 'leasing', 'jobs'];
     if (slug.length===0 || slug ==="/" ||slug.match(/^\/?home/)){
-      $('.menu-community').addClass('active');
-    } else if (slug =="community"){
+      $('#home-nav').addClass('active');
+    } else if (slug =="events"){
         $('.menu-community').addClass('active');
         
-    } else if ($.inArray(slug, planNav) !== -1){
-        $('.menu-plan-your-visit').addClass('active');
-    } else if ($.inArray(slug, latestNav) !== -1){
-         $('.menu-the-latest').addClass('active');        
-    } else if (slug == "stores"){
-         $('.menu-find-a-store').addClass('active');        
-    } else if ($.inArray(slug, styleNav) !== -1){
-        $('.menu-our-style').addClass('active');      
-    } else if ($.inArray(slug, contactNav) !== -1){
-        $('.menu-contact-us').addClass('active');
-    }
+    } else if(slug =="recipes"){
+        
+        
+    }else if(slug =="partners"){
+        
+        
+    }else if(slug =="vendors"){
+        
+        
+    }else if(slug =="gallery"){
+        
+        
+    }]
     
 </script>
 
