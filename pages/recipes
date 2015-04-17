@@ -9,16 +9,16 @@
         <div class="mCSB_container" >
             <h1>Recipes</h1>
         
-            <a href="recipes-mains.php"><h3>Mains</h3>
+            <a href="recipes_mains"><h3>Mains</h3>
             <img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/bd2df06c7b9223e8d183521396924256/recipes-mains.jpg" width="222" height="124"></a>
         
-            <a href="recipes-sides.php"><h3>Sides</h3>
+            <a href="recipes_sides"><h3>Sides</h3>
             <img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/bd2df06c7b9223e8d183521396924256/recipes-sides.jpg" width="222" height="124"></a>
         
-            <a href="recipes-desserts.php"><h3>Desserts</h3>
+            <a href="recipes_desserts"><h3>Desserts</h3>
             <img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/bd2df06c7b9223e8d183521396924256/recipes-deserts.jpg" width="222" height="124"></a>
         
-            <a href="recipes-special.php"><h3>Special</h3>
+            <a href="recipes_special"><h3>Special</h3>
             <img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/bd2df06c7b9223e8d183521396924256/recipes-other.jpg" width="222" height="124" style="margin-bottom:20px;"></a>
         </div>
     </div>
