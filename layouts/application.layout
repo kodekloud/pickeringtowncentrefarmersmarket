@@ -23,7 +23,7 @@
     var styleNav = ['style_all','style_file', 'shop', 'attract', 'spotted', 'consultations', 'setters'];
     var contactNav = ['contact_us', 'leasing', 'jobs'];
     if (slug.length===0 || slug ==="/" ||slug.match(/^\/?home/)){
-      $('#home-nav').addClass('active');
+      $('#home-nav').addClass('nav-home-active');
     } else if (slug =="events"){
         $('.menu-community').addClass('active');
         
