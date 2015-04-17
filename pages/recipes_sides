@@ -78,11 +78,11 @@
             <div class="individual-recipe">
                 <div>
                 <div class="recipe-lb">
-                <a class="fancybox" rel="gallery1" href=""><img src="" width="140" height="200"></a>
+                <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/753d0871cce58ef3b8f399ca69cbbf62/lg-recipe-potatobean.jpg"><img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/753d0871cce58ef3b8f399ca69cbbf62/lg-recipe-potatobean.jpg" width="140" height="200"></a>
                 <h4>Potato Bean<br> Recipe</h4>
                 </div>
                 <div class="facts-lb">
-                <a class="fancybox" rel="gallery1" href=""><img src="" width="140" height="200"></a>
+                <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/753d0871cce58ef3b8f399ca69cbbf62/lg-winner.jpg"><img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/753d0871cce58ef3b8f399ca69cbbf62/lg-winner.jpg" width="140" height="200"></a>
                 <h4>Recipe<br>Winner!</h4>
                 </div><br clear="all"></div>
                 <a href="" target="_blank">
