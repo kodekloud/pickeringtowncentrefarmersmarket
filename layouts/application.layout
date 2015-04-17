@@ -23,23 +23,23 @@
     var styleNav = ['style_all','style_file', 'shop', 'attract', 'spotted', 'consultations', 'setters'];
     var contactNav = ['contact_us', 'leasing', 'jobs'];
     if (slug.length===0 || slug ==="/" ||slug.match(/^\/?home/)){
-      $('#home-nav').addClass('nav-home-active');
+        $('#home-nav').addClass('nav-home-active');
     } else if (slug =="events"){
-        $('.menu-community').addClass('active');
+        $('#home-nav').addClass('nav-events-active');
         
     } else if(slug =="recipes"){
-        
+       $('#home-nav').addClass('nav-recipes-active'); 
         
     }else if(slug =="partners"){
-        
+         $('#home-nav').addClass('nav-partners-active');
         
     }else if(slug =="vendors"){
-        
+        $('#home-nav').addClass('nav-vendors-active'); 
         
     }else if(slug =="gallery"){
+        $('#home-nav').addClass('nav-gallery-active'); 
         
-        
-    }]
+    }
     
 </script>
 
