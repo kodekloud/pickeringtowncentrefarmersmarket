@@ -99,16 +99,19 @@
             <div class="individual-recipe">
         <div>
         <div class="recipe-lb">
-        <a class="fancybox" rel="gallery1" href="images/mains/lg-recipe-raspberry2013.jpg"><img src="images/mains/recipe-raspberry.jpg" width="139" height="161"></a>
+        <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/lg-recipe-raspberry2013.jpg"><img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/lg-recipe-raspberry2013.jpg" width="140" height="200"></a>
         <h4>Raspberry<br> Recipe</h4>
         </div>
         <div class="facts-lb">
-        <a class="fancybox" rel="gallery1" href="images/mains/lg-facts-raspberry2013.jpg"><img src="images/mains/facts-raspberry.jpg" width="139" height="161"></a>
+        <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/lg-facts-raspberry2013.jpg"><img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/lg-facts-raspberry2013.jpg" width="140" height="200"></a>
         <h4>Raspberry<br> Facts</h4>
         </div>
         <br clear="all"></div>
-        <a href="images/mains/farmersmarket-raspberry-stuffed-french-toast-printable.pdf" target="_blank"><img src="images/print.jpg" width="106" height="43" alt="printable version" class="print" style="margin-top:-10px;"></a>
-        <img src="images/icons/berry.jpg" width="50" height="50" class="icon">
+        
+         <a href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/farmersmarket-corn-tex-mex-bake-printable.pdf" target="_blank">
+            <img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/print.jpg" width="106" height="43" alt="printable version" class="print"></a>
+            <img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/cheese.jpg" width="50" height="50" class="icon">
+           
         <div class="icon-txt"><a href="http://ontarioberries.com/" target="_blank">Recipe and photo courtesy<br>of Ontario Berry Growers</a></div>
         <br clear="all">
         </div>
