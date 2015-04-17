@@ -5,8 +5,8 @@
 </script>
 
 <div id="recipes-content2" class="mCustomScrollbar _mCS_1">
-    <div class="mCustomScrollBox mCS-light-thick" id="mCSB_1" style="position:relative; height:100%; overflow:hidden; max-width:100%;">
-        <div class="mCSB_container" style="position: relative; top: 0px;">
+    <div class="mCustomScrollBox mCS-light-thick" id="mCSB_1">
+        <div class="mCSB_container">
             <h1 style="margin-bottom:15px; margin-right:80px;">Recipes</h1>
             <div style="text-align:center; margin:20px 10px 20px 0;">
                 <a href="/recipes_mains" class="white-recipe">Mains  </a> <a href="/recipes_sides" class="green-recipe"> ·  Sides  · </a> <a href="/recipes_desserts" class="green-recipe"> Desserts · </a> <a href="/recipes_special" class="green-recipe">Special </a>
@@ -241,18 +241,6 @@
             <div class="icon-txt"><a href="http://www.ontariopotatoes.ca/" target="_blank">Recipe and photo courtesy<br>of Ontario Potato Board</a></div>
             <br clear="all">
             </div>
-        </div>
-
-
-        <div class="mCSB_scrollTools" style="position: absolute; display: block;">
-            <a class="mCSB_buttonUp" oncontextmenu="return false;"></a>
-            <div class="mCSB_draggerContainer">
-                <div class="mCSB_dragger" style="position: absolute; height: 84px; top: 0px;" oncontextmenu="return false;">
-                    <div class="mCSB_dragger_bar" style="position: relative; line-height: 84px;"></div>
-                </div>
-                <div class="mCSB_draggerRail"></div>
-            </div>
-            <a class="mCSB_buttonDown" oncontextmenu="return false;"></a>
         </div>
     </div>
 </div>
