@@ -3,3 +3,14 @@
     $('#recipes-nav').addClass('nav-recipes-active');
     $('.content-top').attr("id", "recipes");
 </script>
+<div id="recipes-content2" class="mCustomScrollbar _mCS_1">
+    <div class="mCustomScrollBox mCS-light-thick" id="mCSB_1">
+        <div class="mCSB_container">
+        
+        <h1 style="margin-bottom:15px; margin-right:80px;">Recipes</h1>
+            <div style="text-align:center; margin:20px 10px 20px 0;">
+                <a href="/recipes_mains" class="green-recipe">Mains  </a> <a href="/recipes_sides" class="white-recipe"> ·  Sides  · </a> <a href="/recipes_desserts" class="green-recipe"> Desserts · </a> <a href="/recipes_special" class="green-recipe">Special </a>
+            </div>
+        </div>
+    </div>
+</div>
