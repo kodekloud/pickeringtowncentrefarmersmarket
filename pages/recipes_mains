@@ -134,22 +134,23 @@
     <br clear="all">
     </div>
     
-            <div class="individual-recipe">
-    <div>
-    <div class="recipe-lb">
-    <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/lg-recipe-potato2013.jpg"><img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/lg-recipe-potato2013.jpg" width="140" height="200"></a>
-    <h4>Potato<br> Recipe</h4>
-    </div>
-    <div class="facts-lb">
-    <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/lg-facts-potato2013.jpg"><img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/lg-facts-potato2013.jpg" width="140" height="200"></a>
-    <h4>Potato<br> Facts</h4>
-    </div>
-    <br clear="all"></div>
-    <a href="images/mains/farmersmarket-potato-tandoori-recipe-printable.pdf" target="_blank"><img src="images/print.jpg" width="106" height="43" alt="printable version" class="print" style="margin-top:-10px;"></a>
-    <img src="images/icons/potato.jpg" width="50" height="50" class="icon">
-    <div class="icon-txt"><a href="http://www.ontariopotatoes.ca/" target="_blank">Recipe and photo courtesy<br>of Ontario Potato Board</a></div>
-    <br clear="all">
-    </div>
+        <div class="individual-recipe">
+            <div>
+            <div class="recipe-lb">
+            <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/lg-recipe-potato2013.jpg"><img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/lg-recipe-potato2013.jpg" width="140" height="200"></a>
+            <h4>Potato<br> Recipe</h4>
+            </div>
+            <div class="facts-lb">
+            <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/lg-facts-potato2013.jpg"><img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/lg-facts-potato2013.jpg" width="140" height="200"></a>
+            <h4>Potato<br> Facts</h4>
+            </div>
+            <br clear="all"></div>
+            <a href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/farmersmarket-potato-tandoori-recipe-printable.pdf" target="_blank">
+            <img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/print.jpg" width="106" height="43" alt="printable version" class="print"></a>
+            <img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/potato.jpg" width="50" height="50" class="icon">
+            <div class="icon-txt"><a href="http://www.ontariopotatoes.ca/" target="_blank">Recipe and photo courtesy<br>of Ontario Potato Board</a></div>
+            <br clear="all">
+        </div>
 
             <div class="individual-recipe">
             <div>
