@@ -127,8 +127,9 @@
     <h4>Peach<br> Facts</h4>
     </div>
     <br clear="all"></div>
-    <a href="images/mains/farmersmarket-peach-glazed-ribs-printable.pdf" target="_blank"><img src="images/print.jpg" width="106" height="43" alt="printable version" class="print" style="margin-top:-10px;"></a>
-    <img src="images/icons/fruit.jpg" width="50" height="50" class="icon">
+    <a href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/farmersmarket-peach-glazed-ribs-printable.pdf" target="_blank">
+            <img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/print.jpg" width="106" height="43" alt="printable version" class="print"></a>
+    <img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/fruit.jpg" width="50" height="50" class="icon">
     <div class="icon-txt"><a href="http://www.ontariotenderfruit.ca/" target="_blank">Recipe and photo courtesy<br>of Ontario Tender Fruit</a></div>
     <br clear="all">
     </div>
