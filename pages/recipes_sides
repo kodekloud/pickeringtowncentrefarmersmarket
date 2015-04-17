@@ -74,6 +74,12 @@ $(document).ready(function() {
         renderRepoListTemplate('#blog_tile_template', '#list-content',getRepoDetailsByName("pretty-great-renderings"));
     }
     
-    loadMallData(renderPageData);
+    loadRecipe(renderPageData);
 }); 
+function loadUser() {
+  var template = $('#template').html();
+  Mustache.parse(template);   // optional, speeds up future uses
+  var rendered = Mustache.render(template, {name: "Luke"});
+  $('#target').html(rendered);
+}
 </script>
