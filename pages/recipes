@@ -1,0 +1,29 @@
+<div id="recipes-content" class="mCustomScrollbar _mCS_1">
+    <div class="mCustomScrollBox mCS-light-thick" id="mCSB_1" style="position:relative; height:100%; overflow:hidden; max-width:100%;">
+        <div class="mCSB_container" style="position: relative; top: 0px;">
+            <h1>Recipes</h1>
+        
+            <a href="recipes-mains.php"><h3>Mains</h3>
+            <img src="images/recipes-mains.jpg" width="222" height="124"></a>
+        
+            <a href="recipes-sides.php"><h3>Sides</h3>
+            <img src="images/recipes-sides.jpg" width="222" height="124"></a>
+        
+            <a href="recipes-desserts.php"><h3>Desserts</h3>
+            <img src="images/recipes-deserts.jpg" width="222" height="124"></a>
+        
+            <a href="recipes-special.php"><h3>Special</h3>
+            <img src="images/recipes-other.jpg" width="222" height="124" style="margin-bottom:20px;"></a>
+        </div>
+        <div class="mCSB_scrollTools" style="position: absolute; display: block;">
+            <a class="mCSB_buttonUp" oncontextmenu="return false;"></a>
+            <div class="mCSB_draggerContainer">
+                <div class="mCSB_dragger" style="position: absolute; height: 471px; top: 0px;" oncontextmenu="return false;">
+                    <div class="mCSB_dragger_bar" style="position: relative; line-height: 471px;"></div>
+                </div>
+                <div class="mCSB_draggerRail"></div>
+            </div>
+            <a class="mCSB_buttonDown" oncontextmenu="return false;"></a>
+        </div>
+    </div>
+</div>
