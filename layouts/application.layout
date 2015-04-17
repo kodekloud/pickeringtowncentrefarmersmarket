@@ -12,7 +12,7 @@
 <script type="text/javascript" src="/jquery.fancybox.js"></script>
 
 <!-- custom scrollbars plugin -->
-<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="/jquery.mCustomScrollbar.concat.min.js"></script>
 
 <script>
 
