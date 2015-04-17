@@ -63,7 +63,7 @@
             {{yield}}
 
 
-
+        <br clear="all">
         </div>
         <div id="footer">
         <a href="/map">View Map &nbsp;|&nbsp;</a> <a href="/recipes">Recipes &nbsp;|&nbsp;</a> <a href="/events">Events &nbsp;|&nbsp;</a> 
