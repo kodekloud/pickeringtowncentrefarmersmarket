@@ -15,7 +15,7 @@
 <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 
 <script>
-function clearActive(){
+function clearActiveMenu(){
     $('#home-nav').removeClass('nav-home-active');
     $('#home-nav').addClass('nav-home');
     
