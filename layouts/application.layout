@@ -19,6 +19,8 @@ function clearActiveMenu(){
     $('#home-nav').removeClass('nav-home-active');
     $('#home-nav').addClass('nav-home');
     
+    alert('test');
+    
     $('#events-nav').removeClass('nav-events-active');
     $('#events-nav').addClass('nav-events');
     
