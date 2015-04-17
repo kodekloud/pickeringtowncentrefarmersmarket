@@ -66,7 +66,7 @@ function clearActiveMenu(){
             <div id="nav">
                 <a href="/"><img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/3984c67194e834e0ae80b2403b57858d/FM-logo.png" width="212" height="129" alt="Farmers Market" class="logo"></a>
                 <ul>
-                    <li><a id="hame-nav" class="nav-home-active" href="/">&nbsp;</a></li>
+                    <li><a id="hame-nav" class="nav-home" href="/">&nbsp;</a></li>
                     
                     <li><a id="recipes-nav" href="/recipes" class="nav-recipes">&nbsp;</a></li>
                     <li><a id="events-nav" href="/events" class="nav-events">&nbsp;</a></li>
