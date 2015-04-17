@@ -534,6 +534,11 @@ background-image: url(../images/contentbg-vendors.png);
 	text-align: center;
 	padding:30px 50px 0 50px;
 }
+.fancybox img{
+    width:100%;
+    height: auto;
+    
+}
 .individual-recipe {
 	width:327px;
 	height:325px;
