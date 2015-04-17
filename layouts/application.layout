@@ -56,7 +56,9 @@ function clearActiveMenu(){
 	</script>
     <title>{{meta_title}}</title>
    
-<style type="text/css">.fancybox-margin{margin-right:0px;}</style><style type="text/css"></style></head>
+<style type="text/css">.fancybox-margin{margin-right:0px;}</style>
+    
+</head>
 
 <body style="zoom: 1;">
     <div id="wrap">
