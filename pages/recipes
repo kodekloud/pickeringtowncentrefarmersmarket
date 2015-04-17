@@ -1,3 +1,8 @@
+<script>
+    clearActiveMenu();
+    $('#recipes-nav').addClass('nav-recipes-active');
+</script>
+
 <div id="recipes-content" class="mCustomScrollbar _mCS_1">
     <div class="mCustomScrollBox mCS-light-thick" id="mCSB_1" style="position:relative; height:100%; overflow:hidden; max-width:100%;">
         <div class="mCSB_container" style="position: relative; top: 0px;">
