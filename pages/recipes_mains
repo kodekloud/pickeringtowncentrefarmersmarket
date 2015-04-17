@@ -7,8 +7,8 @@
 <div id="recipes-content2" class="mCustomScrollbar _mCS_1"><div class="mCustomScrollBox mCS-light-thick" id="mCSB_1" style="position:relative; height:100%; overflow:hidden; max-width:100%;"><div class="mCSB_container" style="position: relative; top: 0px;">
     <h1 style="margin-bottom:15px; margin-right:80px;">Recipes</h1>
     <div style="text-align:center; margin:20px 10px 20px 0;">
-<a href="/recipes-mains" class="white-recipe">Mains  </a> <a href="recipes-sides.php" class="green-recipe"> ·  Sides  · </a> <a href="/recipes-desserts" class="green-recipe"> Desserts · </a> <a href="/recipes-special" class="green-recipe">Special </a>
-</div>
+        <a href="/recipes-mains" class="white-recipe">Mains  </a> <a href="recipes-sides.php" class="green-recipe"> ·  Sides  · </a> <a href="/recipes-desserts" class="green-recipe"> Desserts · </a> <a href="/recipes-special" class="green-recipe">Special </a>
+    </div>
 
 
     <div class="individual-recipe">
