@@ -9,7 +9,7 @@
         
         <h1 style="margin-bottom:15px; margin-right:80px;">Recipes</h1>
             <div style="text-align:center; margin:20px 10px 20px 0;">
-                <a href="/recipes_mains" class="green-recipe">Mains  </a> <a href="/recipes_sides" class="green-recipe"> ·  Sides  · </a> <a href="/recipes_desserts" class="green-recipe"> Desserts · </a> <a href="/recipes_special" class="green-recipe">Special </a>
+                <a href="/recipes_mains" class="green-recipe">Mains  </a> <a href="/recipes_sides" class="green-recipe"> ·  Sides  · </a> <a href="/recipes_desserts" class="green-recipe"> Desserts · </a> <a href="/recipes_special" class="white-recipe">Special </a>
             </div>
         </div>
     </div>
