@@ -6,6 +6,34 @@
 <div id="recipes-content2" class="mCustomScrollbar _mCS_1">
     <div class="mCustomScrollBox mCS-light-thick" id="mCSB_1">
         <div class="mCSB_container">
+        
+        <h1 style="margin-bottom:15px; margin-right:80px;">Recipes</h1>
+            <div style="text-align:center; margin:20px 10px 20px 0;">
+                <a href="/recipes_mains" class="green-recipe">Mains  </a> <a href="/recipes_sides" class="white-recipe"> ·  Sides  · </a> <a href="/recipes_desserts" class="green-recipe"> Desserts · </a> <a href="/recipes_special" class="green-recipe">Special </a>
+            </div>
+    
+    
+            <div class="individual-recipe">
+                <div>
+                    <div class="recipe-lb">
+                        <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/lg-recipe-corn2013.jpg">
+                        <img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/lg-recipe-corn2013.jpg" width="140" height="200"></a>
+                        <h4>Corn<br> Recipe</h4>
+                    </div>
+                    <div class="facts-lb">
+                        <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/lg-facts-corn2013.jpg">
+                        <img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/lg-facts-corn2013.jpg" width="140" height="200"></a>
+                        <h4>Corn <br>Facts</h4>
+                    </div><br clear="all">
+                </div>
+                <a href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/farmersmarket-corn-tex-mex-bake-printable.pdf" target="_blank">
+                <img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/print.jpg" width="106" height="43" alt="printable version" class="print"></a>
+                <img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/ec37a0ef5d4b0fcf1a2cb837a4f17485/cheese.jpg" width="50" height="50" class="icon">
+                <div class="icon-txt">
+                    <a href="http://www.dairygoodness.ca/cheese/all-you-need-is-cheese/" target="_blank">Recipe and photo courtesy<br>of All You Need Is Cheese</a></div>
+                <br clear="all">
+            </div>
+            
         </div>
     </div>
 </div>
