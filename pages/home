@@ -1,6 +1,9 @@
 <script>
+$( document ).ready(function() {
     clearActiveMenu();
-    $('#home-nav').addClass('nav-home-active');
+    $('#home-nav').addClass('nav-home-active');   
+});
+    
 </script>
 
 <div class="slider-wrapper theme-default">
