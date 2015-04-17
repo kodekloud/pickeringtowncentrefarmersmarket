@@ -11,6 +11,7 @@
             <div style="text-align:center; margin:20px 10px 20px 0;">
                 <a href="/recipes_mains" class="green-recipe">Mains  </a> <a href="/recipes_sides" class="white-recipe"> ·  Sides  · </a> <a href="/recipes_desserts" class="green-recipe"> Desserts · </a> <a href="/recipes_special" class="green-recipe">Special </a>
             </div>
+            <div id="recipe-container"></div>
             <script id="template" type="x-tmpl-mustache">
                 {{#}}
                 <div class="individual-recipe">
