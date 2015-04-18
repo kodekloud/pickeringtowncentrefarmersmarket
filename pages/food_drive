@@ -2,3 +2,9 @@
     clearActiveMenu();
     $('.content-top').attr("id", "food-drive");
 </script>
+<div id="food-drive-content">
+<h2>Food Drive</h2>
+<h3>Help Support <br>our Farmers' Market <br>Food Drive</h3>
+<h4 style="font-size:16px; line-height:25px;">Pickering Town Centre will<br>be collecting donations of<br>non-perishable food items<br>weekly in support of local<br>food banks. Donations can be<br>dropped off at the bin<br>located at the market, or in<br>
+  the bin by Target in the centre.</h4>
+</div>
