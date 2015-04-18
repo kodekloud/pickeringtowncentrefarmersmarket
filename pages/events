@@ -4,7 +4,7 @@
     $('.content-top').attr("id", "events");
 </script>
 
-<div id="recipes-content" class="mCustomScrollbar _mCS_1">
+<div id="events-content" class="mCustomScrollbar _mCS_1">
     <div class="mCustomScrollBox mCS-light-thick" id="mCSB_1">
         <div class="mCSB_container" >
             <h1 class="dotted">Events</h1>        
