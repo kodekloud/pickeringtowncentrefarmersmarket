@@ -1,0 +1,5 @@
+<script>
+    clearActiveMenu();
+    $('#events-nav').addClass('nav-events-active');
+    $('.content-top').attr("id", "events");
+</script>
