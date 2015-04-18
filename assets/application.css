@@ -408,12 +408,12 @@ h4 {
 	background-position: right top;
 }
 #vendors {
-	background-image: url(../images/bg-vendors.png);
+	background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/bg-vendors.png);
 	background-repeat: no-repeat;
 	background-position: right top;
 }
 #partners {
-	background-image: url(../images/bg-partners.png);
+	background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/bg-events.png);
 	background-repeat: no-repeat;
 	background-position: right top;
 }
