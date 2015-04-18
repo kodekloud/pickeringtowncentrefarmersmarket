@@ -8,9 +8,9 @@
     <div class="mCustomScrollBox mCS-light-thick" id="mCSB_1">
         <div class="mCSB_container" >
             <h1>GALLERY</h1> 
-            <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/image-1.jpg"><span style="width:98px; height:98px; background-color:yellow;"></span></a>
-            <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/image-2.jpg"><span style="width:98px; height:98px; background-color:red;"></span></a>
-            <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/image-3.jpg"><span style="width:98px; height:98px; background-color:blue;"></span></a>
+            <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/image-1.jpg"><span style="width:98px; height:98px; background-color:yellow; padding:14px;"></span></a>
+            <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/image-2.jpg"><span style="width:98px; height:98px; background-color:red; padding:14px;"></span></a>
+            <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/image-3.jpg"><span style="width:98px; height:98px; background-color:blue; padding:14px;"></span></a>
             
         </div>
     </div>
