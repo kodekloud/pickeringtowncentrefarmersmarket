@@ -9,15 +9,15 @@
             <h1 class="dotted">VENDORS LIST</h1>   
             
             <ul>
-                <li><a href="albion-hills.php">Albion Hills</a></li>
+                <li><a href="/vendors/albion-hills.php">Albion Hills</a></li>
                 
-                <li><a class="green" href="carberry-soaps.php">Carberry Soap Co. Cakery</a></li>
+                <li><a class="green" href="/vendors/albion-hills.php">Carberry Soap Co. Cakery</a></li>
                 
                 <li><a href="#">Eat My Shortbread</a></li>
                 
-                <li><a class="green" href="olive-that.php">Olive That</a></li>
+                <li><a class="green" href="/vendors/albion-hills.php">Olive That</a></li>
                 
-                <li><a href="serendipity.php">Serendipity</a></li>
+                <li><a href="/vendors/albion-hills.php">Serendipity</a></li>
                 
                 
             </ul>
