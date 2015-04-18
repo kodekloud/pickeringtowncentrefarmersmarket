@@ -234,7 +234,7 @@ h4 {
 .gallery-thumbnail{
     width:94px; 
     height:94px; 
-    margin:14px 14px 0px 0px; 
+    margin:17px 14px 0px 0px; 
     float:left;
     background-image:url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/image-2.jpg);
     background-size:   cover;                      /* <------ */
