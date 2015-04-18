@@ -1,2 +1,6 @@
+<script>
+    clearActiveMenu();
+    $('.content-top').attr("id", "events");
+</script>
 <div id="map-content"></div>
 <br clear="all">
