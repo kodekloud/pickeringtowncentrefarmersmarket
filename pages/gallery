@@ -3,3 +3,11 @@
     $('#gallery-nav').addClass('nav-gallery-active');
     $('.content-top').attr("id", "gallery");
 </script>
+
+<div id="gallery-content" class="mCustomScrollbar _mCS_1">
+    <div class="mCustomScrollBox mCS-light-thick" id="mCSB_1">
+        <div class="mCSB_container" >
+            <h1>GALLERY</h1>        
+        </div>
+    </div>
+</div>
