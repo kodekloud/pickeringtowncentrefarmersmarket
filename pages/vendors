@@ -3,3 +3,10 @@
     $('#vendors-nav').addClass('nav-vendors-active');
     $('.content-top').attr("id", "vendors");
 </script>
+<div id="vendors-content" class="mCustomScrollbar _mCS_1">
+    <div class="mCustomScrollBox mCS-light-thick" id="mCSB_1">
+        <div class="mCSB_container" >
+            <h1 class="dotted">Events</h1>        
+        </div>
+    </div>
+</div>
