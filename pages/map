@@ -1,6 +1,6 @@
 <script>
     clearActiveMenu();
-    $('.content-top').attr("id", "events");
+    $('.content-top').attr("id", "map");
 </script>
 <div id="map-content"></div>
 <br clear="all">
