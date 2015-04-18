@@ -1,0 +1,4 @@
+<script>
+    clearActiveMenu();
+    $('.content-top').attr("id", "gallery");
+</script>
