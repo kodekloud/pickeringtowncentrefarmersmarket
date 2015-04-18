@@ -458,7 +458,7 @@ h4 {
 	text-align: center;
 }
 #vendors-content {
-background-image: url(../images/contentbg-vendors.png);
+background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/contentbg-vendors.png);
 	background-repeat: no-repeat;
 	height:600px;
 	width:360px;
@@ -470,7 +470,7 @@ background-image: url(../images/contentbg-vendors.png);
 	text-transform:uppercase;
 }
 #vendors-content2 {
-	background-image: url(../images/contentbg-vendors.png);
+	background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/contentbg-vendors.png);
 	background-repeat: no-repeat;
 	height:600px;
 	width:360px;
