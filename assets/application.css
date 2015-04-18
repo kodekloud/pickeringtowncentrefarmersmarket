@@ -251,7 +251,7 @@ h4 {
 
 	}
 .nav-map{
-	background-image: url(../images/nav-viewmap.png);
+	background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/nav-viewmap.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height:18px;
@@ -260,7 +260,7 @@ h4 {
 	margin:0 auto;
 	}
 .nav-map-active{
-	background-image: url(../images/nav-viewmap-active.png);
+	background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/nav-viewmap-active.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height:18px;
