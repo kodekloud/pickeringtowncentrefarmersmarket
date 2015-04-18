@@ -1,5 +1,4 @@
 <script>
     clearActiveMenu();
-    $('#gallery-nav').addClass('nav-gallery-active');
     $('.content-top').attr("id", "food-drive");
 </script>
