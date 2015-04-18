@@ -230,6 +230,15 @@ h4 {
   opacity: 1;
   visibility: visible;
 }
+
+.gallery-thumbnail{
+    width:98px; 
+    height:98px; 
+    background-color:yellow; 
+    margin:14px 14px 0px 0px; 
+    float:left;
+}
+
 .nav-home{
 	background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/3984c67194e834e0ae80b2403b57858d/nav-home.png);
 	background-repeat: no-repeat;
