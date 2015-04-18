@@ -399,7 +399,7 @@ h4 {
 	position:relative;
 }
 #food-drive {
-	background-image: url(../images/bg-fooddrive.jpg);
+	background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/bg-fooddrive.jpg);
 	background-repeat: no-repeat;
 }
 #map {
@@ -433,7 +433,7 @@ h4 {
 	background-position: right top;
 }
 #vendors2 {
-	background-image: url(../images/bg-vendors2.jpg);
+	background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/bg-vendors2.jpg);
 	background-repeat: no-repeat;
 	background-position: right top;
 	}
