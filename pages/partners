@@ -1,0 +1,5 @@
+<script>
+    clearActiveMenu();
+    $('#partners-nav').addClass('nav-partners-active');
+    $('.content-top').attr("id", "partners");
+</script>
