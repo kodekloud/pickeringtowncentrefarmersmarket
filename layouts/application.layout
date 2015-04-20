@@ -102,7 +102,7 @@ function clearActiveMenu(){
         </div>
         <div id="footer">
         <a href="/map">View Map &nbsp;|&nbsp;</a> <a href="/recipes">Recipes &nbsp;|&nbsp;</a> <a href="/events">Events &nbsp;|&nbsp;</a> 
-        <a href="/partners">Partners &nbsp;|&nbsp;</a> <a href="/food-drive">Food Drive &nbsp;|&nbsp;</a> 
+        <a href="/partners">Partners &nbsp;|&nbsp;</a> <a href="/food_drive">Food Drive &nbsp;|&nbsp;</a> 
         <a href="/vendors">Vendors &nbsp;|&nbsp;</a> <a href="/gallery">Gallery &nbsp;|&nbsp;</a> 
         <a href="https://www.facebook.com/Pickeringtowncentre" target="_blank">Visit us on facebook</a>
         <p>© 2014 Pickering Town Centre</p>
