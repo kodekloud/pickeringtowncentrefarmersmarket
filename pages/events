@@ -7,7 +7,16 @@
 <div id="events-content" class="mCustomScrollbar _mCS_1">
     <div class="mCustomScrollBox mCS-light-thick" id="mCSB_1">
         <div class="mCSB_container" >
-            <h1 class="dotted">Events</h1>        
+            <h1 class="dotted">Events</h1> 
+            
+               <ul id="vendors_list">
+               <script id="vendors_list_template" type="x-tmpl-mustache">
+                        <li>
+                            <a class="{{textColor}}" href="{{optionSlug}}">{{name}}</a>
+                        </li>
+                </script>
+                
+            </ul>
         </div>
     </div>
 </div>
