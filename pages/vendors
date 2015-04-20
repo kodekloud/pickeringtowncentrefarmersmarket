@@ -48,7 +48,7 @@ function renderStoresList(item_template_id,not_empty_section_id,stores){
         var str = (val.description).trim();
 
         if(str == "" || str == null){
-            val.storeSlug = '#';
+            val.storeSlug = '';
         }else{
             val.storeSlug = '../vendors/' + val.slug;
         }
