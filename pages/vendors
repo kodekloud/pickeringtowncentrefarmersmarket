@@ -8,19 +8,6 @@
         <div class="mCSB_container" >
             <h1 class="dotted">VENDORS LIST</h1>   
             
-            <ul>
-                <li><a href="/vendors/albion-hills.php">Albion Hills</a></li>
-                
-                <li><a class="green" href="/vendors/albion-hills.php">Carberry Soap Co. Cakery</a></li>
-                
-                <li><a href="#">Eat My Shortbread</a></li>
-                
-                <li><a class="green" href="/vendors/albion-hills.php">Olive That</a></li>
-                
-                <li><a href="/vendors/albion-hills.php">Serendipity</a></li>
-                
-            </ul>
-            
             <ul id="vendors_list">
                <script id="vendors_list_template" type="x-tmpl-mustache">
                         <li>
