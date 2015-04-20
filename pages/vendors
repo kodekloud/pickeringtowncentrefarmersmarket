@@ -30,8 +30,7 @@
     function renderPageData(){        
          
     }     
-        loadMallDataCached(renderPageData);
-   
+    loadMallDataCached(renderPageData);
  });
  
 </script>
