@@ -12,9 +12,9 @@ function renderGetList(item_template_id,not_empty_section_id,stores,option){
         var str = (val.description).trim();
 
         if(str == "" || str == null){
-            val.storeSlug = '';
+            val.optionSlug = '';
         }else{
-            val.storeSlug = '../vendors/' + val.slug;
+            val.optionSlug = '../'+ option + '/' + val.slug;
         }
     
         
