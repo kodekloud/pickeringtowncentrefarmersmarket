@@ -23,7 +23,9 @@
             
             <ul id="vendors_list">
                <script id="vendors_list_template" type="x-tmpl-mustache">
-                        <a class="category-list-name"  onclick="scrollToAnchor(this)" href="#cat_{{id}}">{{name}}</a>&nbsp;|&nbsp; 
+                        <li>
+                            <a class="{{textColor}}" href="">{{name}}</a>
+                        </li>
                 </script>
                 
             </ul>
@@ -52,6 +54,12 @@ function renderStoresList(item_template_id,not_empty_section_id,stores){
     $.each( stores , function( key, val ) {
         if (count % 2 == 2){
             val.textColor = "green";
+            var str = (val.slug).trim();
+            if(str != "" || str != null){
+                val.storeSlug = '../stores/' + val.slug;
+            }else{
+                val.storeSlug = '#';
+            }
         }
         var item_rendered = Mustache.render(item_template_html,val);
         item_list.push(item_rendered);
