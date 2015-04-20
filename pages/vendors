@@ -38,6 +38,7 @@
  $(document).ready(function() {
     function renderPageData(){        
         console.log(getStoresList()); 
+        renderStoresList('#vendors_list_template', '#vendors_list', getStoresList());
     }     
     loadMallDataCached(renderPageData);
  });
