@@ -447,7 +447,6 @@ h4 {
 	background-repeat: no-repeat;
 	background-position: right top;
 	
-	
 }
 #vendors2 {
 	background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/bg-vendors2.jpg);
@@ -637,15 +636,24 @@ background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209
 #events-content {
 	background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/contentbg-vendors.png);
 	background-repeat: no-repeat;
-	height:600px;
+	/*height:600px;*/
+	/*width:360px;*/
+	/*float:right;*/
+	/*margin:35px 35px 0 0;*/
+	/*padding:30px 20px 30px 40px;*/
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	/*font-size: 12px;*/
+	/*color:#fff;*/
+	/*line-height: 17px;*/
+	
+		height:600px;
 	width:360px;
 	float:right;
 	margin:35px 35px 0 0;
-	padding:30px 20px 30px 40px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	color:#fff;
-	line-height: 17px;
+	text-align: center;
+	padding:30px 30px 30px 30px;
+	font-family: 'Asul', sans-serif;
+	text-transform:uppercase;
 }
 
 
