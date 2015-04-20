@@ -20,3 +20,14 @@
         </div>
     </div>
 </div>
+
+
+<script>
+ $(document).ready(function() {
+    function renderPageData(){        
+        renderGetList('#vendors_list_template', '#vendors_list', getStoresList(), "vendors");
+    }     
+    loadMallDataCached(renderPageData);
+ });
+
+</script>
