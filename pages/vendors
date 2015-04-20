@@ -48,7 +48,6 @@ function renderStoresList(item_template_id,not_empty_section_id,stores){
             }else{
                 val.storeSlug = '#';
             }
-            count ++;
         }
         var item_rendered = Mustache.render(item_template_html,val);
         item_list.push(item_rendered);
