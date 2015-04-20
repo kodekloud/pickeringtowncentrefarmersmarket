@@ -24,7 +24,7 @@
             <ul id="vendors_list">
                <script id="vendors_list_template" type="x-tmpl-mustache">
                         <li>
-                            <a class="{{textColor}}" href="">{{name}}</a>
+                            <a class="{{textColor}}" href="{{storeSlug}}">{{name}}</a>
                         </li>
                 </script>
                 
