@@ -49,7 +49,7 @@ function clearActiveMenu(){
 <script>
 		(function($){
 			$(window).load(function(){
-					$("#gallery-content,#events-content,#vendors2b-content, #recipes-content2, #vendors-content, #vendors-content2, #recipes-content").mCustomScrollbar({
+					$("#gallery-content,#events-content,#vendors2b-content, #recipes-content2, #vendors-content, #vendors-content2, #recipes-content, #vendors2-content").mCustomScrollbar({
 					scrollButtons:{
 						enable:true
 					},
