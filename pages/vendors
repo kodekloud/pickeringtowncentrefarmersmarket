@@ -32,4 +32,24 @@
     }     
     loadMallDataCached(renderPageData);
  });
+ 
+ 
+ 
+ 
+  
+function renderStoresList(item_template_id,not_empty_section_id,stores){
+    var item_list = [];
+    
+    var item_template_html = $(item_template_id).html();
+    Mustache.parse(item_template_html);
+    $.each( stores , function( key, val ) {
+
+        var item_rendered = Mustache.render(item_template_html,val);
+        item_list.push(item_rendered);
+    });
+    if(stores.length > 0){
+        $(not_empty_section_id).show();
+        $(not_empty_section_id).html(item_list.join(''));
+    }
+}
 </script>
