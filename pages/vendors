@@ -20,6 +20,13 @@
                 <li><a href="/vendors/albion-hills.php">Serendipity</a></li>
                 
             </ul>
+            
+            <ul id="vendors_list">
+               <script id="vendors_list_template" type="x-tmpl-mustache">
+                        <a class="category-list-name"  onclick="scrollToAnchor(this)" href="#cat_{{id}}">{{name}}</a>&nbsp;|&nbsp; 
+                </script>
+                
+            </ul>
         </div>
     </div>
 </div>
