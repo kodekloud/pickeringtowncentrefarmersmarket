@@ -508,7 +508,7 @@ background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209
 	font-size:18px;
 
 	}
-#vendors-content ul li .green, .green {
+#vendors-content ul li .green, .green, #events-content ul li .green, .green {
 	color:#a6c979;
 	}
 #vendors2-content {
