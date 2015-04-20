@@ -40,7 +40,7 @@ function renderStoresList(item_template_id,not_empty_section_id,stores){
     var item_template_html = $(item_template_id).html();
     Mustache.parse(item_template_html);
     $.each( stores , function( key, val ) {
-        if (count % 2 == 2){
+        if (count % 2 == 0){
             val.textColor = "green";
             var str = (val.slug).trim();
             if(str != "" || str != null){
