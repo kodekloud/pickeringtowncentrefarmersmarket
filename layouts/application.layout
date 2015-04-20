@@ -17,7 +17,7 @@
 <!-- custom scrollbars plugin -->
 <script src="/scroll.js"></script>
 <script>
-    setEndPoint('http://halifaxcentre.mallmaverick.com/api/v2/halifaxcentre/all.json');
+    setEndPoint('http://farmersmarket.mallmaverick.com/api/v2/farmersmarket/all.json');
 </script>
 
 
