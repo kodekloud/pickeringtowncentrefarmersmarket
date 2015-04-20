@@ -19,8 +19,9 @@
                 
                 <li><a href="/vendors/albion-hills.php">Serendipity</a></li>
                 
-                
             </ul>
         </div>
     </div>
 </div>
+
+ $(document).ready(function() {});
