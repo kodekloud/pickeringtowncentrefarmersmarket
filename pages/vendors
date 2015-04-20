@@ -28,7 +28,7 @@
 <script>
  $(document).ready(function() {
     function renderPageData(){        
-         
+        console.log(getStoresList()); 
     }     
     loadMallDataCached(renderPageData);
  });
