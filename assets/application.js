@@ -1,4 +1,4 @@
-function renderGetList(item_template_id,not_empty_section_id,stores){
+function renderGetList(item_template_id,not_empty_section_id,stores,option){
     var item_list = [];
     var count = 1;
     var item_template_html = $(item_template_id).html();
