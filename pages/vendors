@@ -24,4 +24,14 @@
     </div>
 </div>
 
- $(document).ready(function() {});
+
+<script>
+ $(document).ready(function() {
+    function renderPageData(){        
+         
+    }     
+        loadMallDataCached(renderPageData);
+   
+ });
+ 
+</script>
