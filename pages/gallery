@@ -12,7 +12,7 @@
             <div id="home_banner">
                 <script id="banner_template" type="x-tmpl-mustache">
                     <a class="fancybox" rel="gallery1" href="{{photo_url_abs}}">
-                        <span class="gallery-thumbnail" style="background-image:{{photo_url_abs}};"></span>
+                        <span class="gallery-thumbnail" style="background-image:url({{photo_url_abs}});"></span>
                     </a>
                 </script>
             </div>
