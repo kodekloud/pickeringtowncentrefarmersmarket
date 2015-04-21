@@ -8,12 +8,13 @@
     <div class="mCustomScrollBox mCS-light-thick" id="mCSB_1">
         <div class="mCSB_container" >
             <h2>Partners</h2>
-                      
+            <div id="home_banner">
                 <script id="banner_template" type="x-tmpl-mustache">
              
                       <img src="{{photo_url_abs}}" />
         
                 </script>
+            </div>
         </div>
     </div>
 </div>
