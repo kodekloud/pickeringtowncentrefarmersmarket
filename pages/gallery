@@ -9,8 +9,8 @@
         <div class="mCSB_container" >
             <h1>GALLERY</h1> 
             
-            <div id="home_banner">
-                <script id="banner_template" type="x-tmpl-mustache">
+            <div id="gallery-items">
+                <script id="gallery_template" type="x-tmpl-mustache">
                     <a class="fancybox" rel="gallery1" href="{{photo_url_abs}}">
                         <span class="gallery-thumbnail" style="background-image:url({{photo_url_abs}});"></span>
                     </a>
@@ -30,7 +30,7 @@
             function renderPageData(){
                 //var repoList = getRepoDetailsByName('partners');
                 var repoList = getRepoList();
-                renderBanner('#banner_template','#home_banner',repoList);
+                renderBanner('#gallery_template','#gallery-items',repoList);
             }
             loadMallDataCached(renderPageData);
         });
