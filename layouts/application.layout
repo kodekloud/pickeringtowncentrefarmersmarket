@@ -50,7 +50,7 @@ function clearActiveMenu(){
 <script>
 		(function($){
 			$(window).load(function(){
-					$("#gallery-content,#events-content,#vendors2b-content, #recipes-content2, #vendors-content, #vendors-content2, #recipes-content, #vendors2-content, #partner-content").mCustomScrollbar({
+					$("#gallery-content,#events-content,#vendors2b-content, #recipes-content2, #vendors-content, #vendors-content2, #recipes-content, #vendors2-content, #partners-content").mCustomScrollbar({
 					scrollButtons:{
 						enable:true
 					},
