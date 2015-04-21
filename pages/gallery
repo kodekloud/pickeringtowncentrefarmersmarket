@@ -70,7 +70,7 @@
     var aDate = a.updated_at;
     var bDate = b.updated_at;
 
-    return ((aDate > bDate) ? -1 : ((aDate < bDate) ? 1 : 0));
+    return ((aDate < bDate) ? -1 : ((aDate > bDate) ? 1 : 0));
 }
 
 </script>
