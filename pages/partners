@@ -3,3 +3,7 @@
     $('#partners-nav').addClass('nav-partners-active');
     $('.content-top').attr("id", "partners");
 </script>
+
+<div id="partners-content">
+    
+</div>
