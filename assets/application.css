@@ -705,6 +705,10 @@ background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209
 	padding:4px;
 	border:1px solid #736b62;
 	}
+#gallery-items{
+    float:left;
+    margin-bottom:20px;
+}
 #gallery-content {
 	background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/contentbg-vendors.png);
 	background-repeat: no-repeat;
