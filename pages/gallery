@@ -37,7 +37,7 @@
         
         
         
-    function renderGallery(repo_template, repo_txt, repo){
+    function renderGallery(repo_template, gallery_item, repo){
         var item_list = [];
         var item_rendered = [];
         var repo_template_html = $(repo_template).html();
@@ -64,8 +64,8 @@
                
         });
 
-        $(repo_txt).show();
-        $(repo_txt).html(item_rendered.join(''));
+        $(gallery_item).show();
+        $(gallery_item).html(item_rendered.join(''));
 
     }
 
