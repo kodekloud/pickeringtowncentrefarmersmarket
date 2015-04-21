@@ -46,7 +46,7 @@
         $.each( repo , function( key, val ) {
             if( val.name == "gallery"){
                 $.each( val.images , function( key, val ) {
-                    item_list.push(repo_rendered);
+                    item_list.push(val);
                 });
      
             }
