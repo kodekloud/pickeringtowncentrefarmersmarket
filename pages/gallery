@@ -8,31 +8,53 @@
     <div class="mCustomScrollBox mCS-light-thick" id="mCSB_1">
         <div class="mCSB_container" >
             <h1>GALLERY</h1> 
-            <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/image-3.jpg"><span class="gallery-thumbnail" style="	"></span></a>
-            <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/image-3.jpg"><span class="gallery-thumbnail" style="background-color:blue;"></span></a>
-            <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/image-3.jpg"><span class="gallery-thumbnail" style="background-color:blue;"></span></a>
-            <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/image-3.jpg"><span class="gallery-thumbnail" style="background-color:blue;"></span></a>
-            <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/image-3.jpg"><span class="gallery-thumbnail" style="background-color:blue;"></span></a>
-            <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/image-3.jpg"><span class="gallery-thumbnail" style="background-color:blue;"></span></a>
-            <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/image-3.jpg"><span class="gallery-thumbnail" style="background-color:blue;"></span></a>
-            <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/image-3.jpg"><span class="gallery-thumbnail" style="background-color:blue;"></span></a>
-            <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/image-3.jpg"><span class="gallery-thumbnail" style="background-color:blue;"></span></a>
-            <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/image-3.jpg"><span class="gallery-thumbnail" style="background-color:blue;"></span></a>
-            <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/image-3.jpg"><span class="gallery-thumbnail" style="background-color:blue;"></span></a>
-            <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/image-3.jpg"><span class="gallery-thumbnail" style="background-color:blue;"></span></a>
-                         <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/image-3.jpg"><span class="gallery-thumbnail" style="background-color:blue;"></span></a>
-            <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/image-3.jpg"><span class="gallery-thumbnail" style="background-color:blue;"></span></a>
-            <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/image-3.jpg"><span class="gallery-thumbnail" style="background-color:blue;"></span></a>
-            <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/image-3.jpg"><span class="gallery-thumbnail" style="background-color:blue;"></span></a>
-            <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/image-3.jpg"><span class="gallery-thumbnail" style="background-color:blue;"></span></a>
-            <a class="fancybox" rel="gallery1" href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/image-3.jpg"><span class="gallery-thumbnail" style="background-color:blue;"></span></a>
-           
+            
+            <div id="home_banner">
+                <script id="banner_template" type="x-tmpl-mustache">
+                    <a class="fancybox" rel="gallery1" href="{{photo_url_abs}}">
+                        <span class="gallery-thumbnail" style="background-image:{{photo_url_abs}};"></span>
+                    </a>
+                </script>
+            </div>
+      
         </div>
     </div>
 </div>
 
 
-<style>
+
+<script>
     
-    
-</style>
+      $(document).ready(function() {
+        
+            function renderPageData(){
+                //var repoList = getRepoDetailsByName('partners');
+                var repoList = getRepoList();
+                renderBanner('#banner_template','#home_banner',repoList);
+            }
+            loadMallDataCached(renderPageData);
+        });
+        
+        
+        
+    function renderBanner(repo_template, repo_txt, repo){
+        var item_list = [];
+        var repo_template_html = $(repo_template).html();
+        Mustache.parse(repo_template_html);   // optional, speeds up future uses
+        $.each( repo , function( key, val ) {
+            if( val.name == "gallery"){
+                $.each( val.images , function( key, val ) {
+                    var repo_rendered = Mustache.render(repo_template_html,val);
+                    item_list.push(repo_rendered);
+                });
+     
+            }
+            
+        });
+
+        $(repo_txt).show();
+        $(repo_txt).html(item_list.join(''));
+
+    }
+
+</script>
