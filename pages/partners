@@ -5,52 +5,42 @@
 </script>
 
 <div id="partners-content" class="mCustomScrollbar _mCS_1">
-    <div class="mCustomScrollBox mCS-light-thick" id="mCSB_1">
-        <div class="mCSB_container" >
-            <h2>Partners</h2>
-            <div id="home_banner">
-                <script id="banner_template" type="x-tmpl-mustache">
-             
-                      <img style="float:left;" src="{{photo_url_abs}}" />
-        
-                </script>
-            </div>
-        </div>
-    </div>
+    <h2>Partners</h2>
+    
 </div>
 
 <script>
     
-      $(document).ready(function() {
+    //   $(document).ready(function() {
         
-            function renderPageData(){
-                //var repoList = getRepoDetailsByName('partners');
-                var repoList = getRepoList();
-                renderBanner('#banner_template','#home_banner',repoList);
-            }
-            loadMallDataCached(renderPageData);
-        });
+    //         function renderPageData(){
+    //             //var repoList = getRepoDetailsByName('partners');
+    //             var repoList = getRepoList();
+    //             renderBanner('#banner_template','#home_banner',repoList);
+    //         }
+    //         loadMallDataCached(renderPageData);
+    //     });
         
         
         
-    function renderBanner(repo_template, repo_txt, repo){
-        var item_list = [];
-        var repo_template_html = $(repo_template).html();
-        Mustache.parse(repo_template_html);   // optional, speeds up future uses
-        $.each( repo , function( key, val ) {
-            if( val.name == "partners"){
-                $.each( val.images , function( key, val ) {
-                    var repo_rendered = Mustache.render(repo_template_html,val);
-                    item_list.push(repo_rendered);
-                });
+    // function renderBanner(repo_template, repo_txt, repo){
+    //     var item_list = [];
+    //     var repo_template_html = $(repo_template).html();
+    //     Mustache.parse(repo_template_html);   // optional, speeds up future uses
+    //     $.each( repo , function( key, val ) {
+    //         if( val.name == "partners"){
+    //             $.each( val.images , function( key, val ) {
+    //                 var repo_rendered = Mustache.render(repo_template_html,val);
+    //                 item_list.push(repo_rendered);
+    //             });
      
-            }
+    //         }
             
-        });
+    //     });
 
-        $(repo_txt).show();
-        $(repo_txt).html(item_list.join(''));
+    //     $(repo_txt).show();
+    //     $(repo_txt).html(item_list.join(''));
 
-    }
+    // }
 
 </script>
