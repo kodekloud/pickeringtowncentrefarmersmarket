@@ -18,7 +18,7 @@
 <script src="/scroll.js"></script>
 <script src="/application.js"></script>
 <script>
-    setEndPoint('http://farmersmarket.mallmaverick.com/api/v2/farmersmarket/all.json');
+    //setEndPoint('http://farmersmarket.mallmaverick.com/api/v2/farmersmarket/all.json');
 </script>
 
 
