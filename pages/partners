@@ -24,8 +24,8 @@
       $(document).ready(function() {
         
             function renderPageData(){
-                var repoList = getRepoDetailsByName('partners');
-                var repoList = getRepo('partners');
+                //var repoList = getRepoDetailsByName('partners');
+                var repoList = getRepo();
                     console.log(repoList);
                // renderBanner('#banner_template','#home_banner',repoList);
             }
