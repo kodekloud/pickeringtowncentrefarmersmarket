@@ -30,7 +30,7 @@
             function renderPageData(){
                 //var repoList = getRepoDetailsByName('partners');
                 var repoList = getRepoList();
-                renderBanner('#gallery_template','#gallery-items',repoList);
+                renderGallery('#gallery_template','#gallery-items',repoList);
             }
             loadMallDataCached(renderPageData);
         });
