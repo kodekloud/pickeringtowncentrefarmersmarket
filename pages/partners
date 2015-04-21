@@ -4,7 +4,11 @@
     $('.content-top').attr("id", "partners");
 </script>
 
-<div id="partners-content">
-    <h2>Partners</h2>
-    <div class=""></div>
+<div id="partners-content" class="mCustomScrollbar _mCS_1">
+    <div class="mCustomScrollBox mCS-light-thick" id="mCSB_1">
+        <div class="mCSB_container" >
+            <h2>Partners</h2>
+            <div class=""></div>
+        </div>
+    </div>
 </div>
