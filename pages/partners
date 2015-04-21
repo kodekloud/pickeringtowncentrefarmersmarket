@@ -26,8 +26,7 @@
             function renderPageData(){
                 //var repoList = getRepoDetailsByName('partners');
                 var repoList = getRepoList();
-                    console.log(repoList);
-               // renderBanner('#banner_template','#home_banner',repoList);
+                renderBanner('#banner_template','#home_banner',repoList);
             }
             loadMallDataCached(renderPageData);
         });
