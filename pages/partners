@@ -42,9 +42,9 @@
                     var repo_rendered = Mustache.render(repo_template_html,val);
                     console.log(val.images);
                     item_list.push(repo_rendered);
-                }
+                });
      
-            });
+            }
             
         });
 
