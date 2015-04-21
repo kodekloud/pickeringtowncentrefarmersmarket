@@ -39,6 +39,7 @@
         var repo_template_html = $(repo_template).html();
         Mustache.parse(repo_template_html);   // optional, speeds up future uses
         $.each( repo , function( key, val ) {
+            console.log('hihihi');
             if( val.name == "partners"){
                 console.log(val);
 
