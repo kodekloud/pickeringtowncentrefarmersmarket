@@ -39,8 +39,6 @@
         Mustache.parse(repo_template_html);   // optional, speeds up future uses
         $.each( repo , function( key, val ) {
             if( val.name == "partners"){
-                console.log(val);
-
                 $.each( val.images , function( key, val ) {
                     var repo_rendered = Mustache.render(repo_template_html,val);
                     item_list.push(repo_rendered);
