@@ -4,7 +4,7 @@
     $('.content-top').attr("id", "partners");
 </script>
 
-<div id="partners-content" class="mCustomScrollbar _mCS_1">
+<div id="partners-content">
     <h2>Partners</h2>
     <img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/b1509b6a26cbbd831df089e2a60a0568/partners-ptc.png" width="" height="" alt="pickering town centre">
     <img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/b1509b6a26cbbd831df089e2a60a0568/partners-durhamfarmfresh.png" width="160" height="136" alt="durham farm fresh">
@@ -16,39 +16,3 @@
     <img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/b1509b6a26cbbd831df089e2a60a0568/partners-greenbelt.png" alt="Green Belt">
     <img src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/b1509b6a26cbbd831df089e2a60a0568/partners-thenewsadvertiser.png" alt="the news advertiser ajax/pickering" style="margin-top:-100px;">
 </div>
-
-<script>
-    
-    //   $(document).ready(function() {
-        
-    //         function renderPageData(){
-    //             //var repoList = getRepoDetailsByName('partners');
-    //             var repoList = getRepoList();
-    //             renderBanner('#banner_template','#home_banner',repoList);
-    //         }
-    //         loadMallDataCached(renderPageData);
-    //     });
-        
-        
-        
-    // function renderBanner(repo_template, repo_txt, repo){
-    //     var item_list = [];
-    //     var repo_template_html = $(repo_template).html();
-    //     Mustache.parse(repo_template_html);   // optional, speeds up future uses
-    //     $.each( repo , function( key, val ) {
-    //         if( val.name == "partners"){
-    //             $.each( val.images , function( key, val ) {
-    //                 var repo_rendered = Mustache.render(repo_template_html,val);
-    //                 item_list.push(repo_rendered);
-    //             });
-     
-    //         }
-            
-    //     });
-
-    //     $(repo_txt).show();
-    //     $(repo_txt).html(item_list.join(''));
-
-    // }
-
-</script>
