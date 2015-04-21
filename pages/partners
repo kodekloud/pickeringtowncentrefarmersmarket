@@ -40,10 +40,10 @@
             });
             
         });
-        if (show){
-            $(repo_txt).show();
-            $(repo_txt).html(item_list.join(''));
-        }
+
+        $(repo_txt).show();
+        $(repo_txt).html(item_list.join(''));
+
     }
 
 </script>
