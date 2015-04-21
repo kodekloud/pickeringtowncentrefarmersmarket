@@ -11,7 +11,7 @@
             <div id="home_banner">
                 <script id="banner_template" type="x-tmpl-mustache">
              
-                      <img src="{{photo_url_abs}}" />
+                      <img style="float:left;" src="{{photo_url_abs}}" />
         
                 </script>
             </div>
