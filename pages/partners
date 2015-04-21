@@ -32,7 +32,7 @@
         
         
         
-    function renderBanner(repo_template, repo_txt, repo){
+    function renderBanner(repo_template, repo_template_html, repo){
         var item_list = [];
         var repo_template_html = $(repo_template).html();
         Mustache.parse(repo_template_html);   // optional, speeds up future uses
