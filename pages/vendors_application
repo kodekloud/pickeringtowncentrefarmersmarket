@@ -97,7 +97,7 @@
         float:left;
     }
     .checkbox{
-        display: block;
+        float:left;
         margin: 4px 0 0 0;
         padding: 0;
         width: 13px;
