@@ -20,7 +20,7 @@
         font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
         letter-spacing: .01em;
         width:300px;
-        margin-left: 15px;
+        margin-left: 20px;
         text-align:left;
     }
 </style>
