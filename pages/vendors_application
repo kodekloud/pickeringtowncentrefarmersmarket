@@ -173,21 +173,21 @@
                 
                 <label>Phone:<span class="req"> *</span></label>
                 <span class="phone-box">
-                    <input class="text" type="text" size="3" maxlength="3" style="text-align:center;padding-left:0px;"/>
+                    <input class="text" type="text" size="3" maxlength="3" style="text-align:center;padding-left:0px;" required/>
                     <p>###</p>
                 </span>
                 <span class="phone-box symbol">
                     <p>-</p>
                 </span>
                 <span class="phone-box">
-                    <input class="text" type="text" size="3" maxlength="3" style="text-align:center;padding-left:0px;"/>
+                    <input class="text" type="text" size="3" maxlength="3" style="text-align:center;padding-left:0px;" required/>
                     <p>###</p>
                 </span>
                 <span class="phone-box symbol">
                     <p>-</p>
                 </span>
                 <span class="phone-box">
-                    <input class="text" type="text" size="4" maxlength="4" style="text-align:center;padding-left:0px;"/>
+                    <input class="text" type="text" size="4" maxlength="4" style="text-align:center;padding-left:0px;" required/>
                     <p>####</p>
                 </span>
                 
@@ -213,7 +213,7 @@
                 </span>
                 
                 <label>Email Address:<span class="req"> *</span></label>
-                <input class="text" type="text" style="width:60%;" maxlength="255" />
+                <input class="text" type="email" style="width:60%;" maxlength="255" required/>
                 
                 <label>Ontario Farm Registration No.(if applicable):</label>
                 <input class="text" type="text" style="width:60%;" maxlength="255" />
