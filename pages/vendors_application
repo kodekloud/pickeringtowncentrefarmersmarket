@@ -2,7 +2,6 @@
     clearActiveMenu();
     $('#vendors-nav').addClass('nav-vendors-active');
     $('.content-top').attr("id", "vendors");
-	   $('#datepicker').DatePicker();
 
 </script>
 <style>
