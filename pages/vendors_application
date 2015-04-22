@@ -10,7 +10,7 @@
       font-weight: bold;
       color: #cbe19b;
     }
-    p{
+    div{
         font-size: 95%;
         font-style: normal;
         font-weight: normal;
