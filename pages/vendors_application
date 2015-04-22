@@ -10,6 +10,13 @@
       font-weight: bold;
       color: #cbe19b;
     }
+    h3{
+        font-size: 110%;
+        font-family: inherit;
+        font-style: normal;
+        font-weight: normal;
+        color: #ffffff;
+    }
     p{
         font-size: 95%;
         font-style: normal;
@@ -137,6 +144,8 @@
                 
                 <label>Ontario Farm Registration No.(if applicable):</label>
                 <input class="text" type="text" style="width:60%;" maxlength="255" />
+                
+                <h3>SETUP FEES</h3>
                 
             </form>
         </div>
