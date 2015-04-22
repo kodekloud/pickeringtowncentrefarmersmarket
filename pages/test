@@ -1,6 +1,6 @@
 <script>
-    clearActiveMenu();
-    $('#vendors-nav').addClass('nav-vendors-active');
-    $('.content-top').attr("id", "vendors");
+
     datepickr('#datepicker');
 </script>
+
+                <input  type='text' id="datepicker" class='text' />
