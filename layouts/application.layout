@@ -5,6 +5,7 @@
 <link href="/application.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="/fancybox.css" media="screen">
 <link href="/scroll.css" rel="stylesheet">
+<link href="/datepicker.css" rel="stylesheet">
 
 
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -19,7 +20,6 @@
 <script src="/scroll.js"></script>
 <script src="/application.js"></script>
 
-<link href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/145b5617a2a85b6ef2c3d662b08bcfcd/datepick.css" rel="stylesheet">
 <script src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/145b5617a2a85b6ef2c3d662b08bcfcd/plugin.js"></script>
 
 <script src="/datepicker.js"></script>
