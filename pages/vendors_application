@@ -241,7 +241,7 @@
                 <h3>APPLICATION SUBMISSION</h3>
                  <p class="setup">Please click 'Submit' below to submit your application. A member of our marketing team will be in contact with you.</p>
             
-                <input type="submit" value="Submit"/>
+                <input type="submit" value="Submit" class="submit-btn"/>
             </form>
         </div>
     </div>
