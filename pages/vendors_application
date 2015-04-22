@@ -18,6 +18,9 @@
         margin-bottom:15px;
      
     }
+    form{
+        float:left;
+    }
     .vendors-application{
         font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
         letter-spacing: .01em;
