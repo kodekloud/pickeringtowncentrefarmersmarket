@@ -56,7 +56,6 @@ function clearActiveMenu(){
 <script>
 		(function($){
 			$(window).load(function(){
-			      $('#datepicker').datepick({dateFormat: 'yyyy-mm-dd'});
 					$("#gallery-content,#events-content,#vendors2b-content, #recipes-content2, #vendors-content, #vendors-content2, #recipes-content, #vendors2-content, #partners-content").mCustomScrollbar({
 					scrollButtons:{
 						enable:true
@@ -68,6 +67,8 @@ function clearActiveMenu(){
 		openEffect	: 'none',
 		closeEffect	: 'none'
 	});
+				      $('#datepicker').datepick({dateFormat: 'yyyy-mm-dd'});
+
 		})(jQuery);
 	</script>
     <title>{{meta_title}}</title>
