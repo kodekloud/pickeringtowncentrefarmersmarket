@@ -185,7 +185,7 @@
                 <p class="setup">ADDITIONAL TABLES: $10 PER TABLE</p>
                 
                 <p class="week_text">NUMBER OF WEEKS:<span class="req"> *</span></p>
-                <input class="checkbox" type="checkbox"/><label class="checkboxLabel" style="width:70%;">Full Season</label>
+                <input class="checkbox" type="checkbox"/><label class="checkboxLabel" style="width:70%;">Full Season(18 Weeks)</label>
             </form>
         </div>
     </div>
