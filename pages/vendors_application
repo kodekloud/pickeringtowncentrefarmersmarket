@@ -186,6 +186,8 @@
                 
                 <p class="week_text">NUMBER OF WEEKS:<span class="req"> *</span></p>
                 <input class="checkbox" type="checkbox"/><label class="checkboxLabel" style="width:70%;">Full Season (18 Weeks)</label>
+                <input class="checkbox" type="checkbox"/><label class="checkboxLabel" style="width:70%;">Short-Term Vendor (5 consecutive weeks – please select dates below)</label>
+
             </form>
         </div>
     </div>
