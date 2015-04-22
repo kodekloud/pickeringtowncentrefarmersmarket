@@ -197,7 +197,13 @@
                 <input class="text" type="text" id="datepicker">
                 <script src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/145b5617a2a85b6ef2c3d662b08bcfcd/pikaday.js"></script>
                 <script>
-                    var picker = new Pikaday({ field: document.getElementById('datepicker') });
+                    var field = document.getElementById('datepicker');
+var picker = new Pikaday({
+    onSelect: function(date) {
+        field.value = picker.toString();
+    }
+});
+field.parentNode.insertBefore(picker.el, field.nextSibling);
                 </script>
             </form>
         </div>
