@@ -80,6 +80,13 @@
           margin-left:5px;
           margin-right:5px;
     }
+    .setup{
+        font-size: 85%;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+    }
 </style>
 <div id="vendors-content2" class="mCustomScrollbar _mCS_1">
     <div class="mCustomScrollBox mCS-light-thick" id="mCSB_1">
@@ -149,7 +156,12 @@
                 <input class="text" type="text" style="width:60%;" maxlength="255" />
                 
                 <h3>SETUP FEES</h3>
-                
+                <p class="setup">$35 PER SALES AREA</p>
+                <p class="setup">Includes setup of:</p>
+                <p class="setup">One 10’ x 10’ tent </p>
+                <p class="setup">One 8’ table with black skirt </p>
+                <p class="setup">One chair </p>
+                <p class="setup">ADDITIONAL TABLES: $10 PER TABLE</p>
             </form>
         </div>
     </div>
