@@ -108,7 +108,7 @@
         margin-left:10px;
         font-size:80%;
         float:left;
-        width:70%;
+        width:90%;
     }
 </style>
 <div id="vendors-content2" class="mCustomScrollbar _mCS_1">
@@ -187,8 +187,8 @@
                 <p class="setup">ADDITIONAL TABLES: $10 PER TABLE</p>
                 
                 <p class="week_text">NUMBER OF WEEKS:<span class="req"> *</span></p>
-                <input class="checkbox" type="checkbox"/><label class="checkboxLabel" style="width:70%;">Full Season (18 Weeks)</label>
-                <input class="checkbox" type="checkbox"/><label class="checkboxLabel" style="width:70%;">Short-Term Vendor (5 consecutive weeks – please select dates below)</label>
+                <input class="checkbox" type="checkbox"/><label class="checkboxLabel">Full Season (18 Weeks)</label>
+                <input class="checkbox" type="checkbox"/><label class="checkboxLabel">Short-Term Vendor (5 consecutive weeks – please select dates below)</label>
 
             </form>
         </div>
