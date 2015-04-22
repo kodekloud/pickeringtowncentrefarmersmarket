@@ -58,6 +58,7 @@
     }
     .phone-box{
         float:left;
+        text-align:center;
     }
     .symbol{
           font-size: 80%;
