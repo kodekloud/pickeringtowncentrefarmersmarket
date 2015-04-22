@@ -142,6 +142,9 @@
         float:left;
         font-size:120%;
     }
+    .date-info{
+        float:left;
+    }
 </style>
 
 <div id="vendors-content2" class="mCustomScrollbar _mCS_1">
@@ -225,7 +228,7 @@
                 
                 
                 <label>Start Date (Please select a Tuesday):<span class="req"> *</span></label>
-                <input id="datepicker" class='text' />
+                <input id="datepicker" class='text' /><span class="date-info">MM/DD/YYYY</span>
                 
                 <p class="week_text">Hydro:<span class="req"> *</span></p>
                 <input class="checkbox" type="checkbox"/><label class="checkboxLabel">Yes, I require hydro for my setup.</label>
