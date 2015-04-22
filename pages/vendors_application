@@ -48,6 +48,7 @@
         font-weight: normal;
         color: #ffffff;
         font-size: 90%;
+        width: 60%;
     }
 </style>
 <div id="vendors-content2" class="mCustomScrollbar _mCS_1">
