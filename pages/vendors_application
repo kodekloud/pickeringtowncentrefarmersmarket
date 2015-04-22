@@ -238,8 +238,8 @@
                 <label>List of specific Items to be sold. (Please list all items)</label>
                 <textarea rows="10" cols="50"></textarea>
                 
-                <label>APPLICATION SUBMISSION</label>
-
+                <h3>APPLICATION SUBMISSION</h3>
+                 <p class="setup">Please click 'Submit' below to submit your application. A member of our marketing team will be in contact with you.</p>
             </form>
         </div>
     </div>
