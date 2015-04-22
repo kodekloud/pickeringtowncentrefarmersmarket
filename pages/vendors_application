@@ -173,7 +173,7 @@
                 
                 <label>Phone:<span class="req"> *</span></label>
                 <span class="phone-box">
-                    <input class="text" type="text" size="3" maxlength="3" style="text-align:center;padding-left:0px;" required/>
+                    <input class="text" type="text" size="3" pattern=".{3,3}" title="3 numbers" maxlength="3" style="text-align:center;padding-left:0px;" required/>
                     <p>###</p>
                 </span>
                 <span class="phone-box symbol">
