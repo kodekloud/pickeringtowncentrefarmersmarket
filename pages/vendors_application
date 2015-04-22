@@ -59,6 +59,12 @@
     .phone-box{
         float:left;
     }
+    .symbol{
+  font-size: 120%;
+  line-height: 135%;
+  font-family: inherit;
+  color: #ffffff;
+    }
 </style>
 <div id="vendors-content2" class="mCustomScrollbar _mCS_1">
     <div class="mCustomScrollBox mCS-light-thick" id="mCSB_1">
