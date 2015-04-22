@@ -16,6 +16,10 @@
         font-weight: normal;
         color: #ffffff;
     }
+    .vendors-application{
+        font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+        letter-spacing: .01em;
+    }
 </style>
 <div id="vendors-content2" class="mCustomScrollbar _mCS_1">
     <div class="mCustomScrollBox mCS-light-thick" id="mCSB_1">
