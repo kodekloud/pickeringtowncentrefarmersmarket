@@ -15,7 +15,7 @@
         font-style: normal;
         font-weight: normal;
         color: #ffffff;
-        text-transform: none;
+     
     }
     .vendors-application{
         font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
@@ -23,6 +23,7 @@
         width:300px;
         margin-left: 20px;
         text-align:left;
+           text-transform: none;
     }
 </style>
 <div id="vendors-content2" class="mCustomScrollbar _mCS_1">
