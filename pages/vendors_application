@@ -72,6 +72,11 @@
         font-size: 90%;
         float:left;
     }
+    textarea{
+        width:100%;
+         background-color:rgba(0,0,0,0.2);
+         color:white;
+    }
     .phone-box{
         float:left;
         text-align:center;
