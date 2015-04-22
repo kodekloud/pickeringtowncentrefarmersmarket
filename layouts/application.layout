@@ -14,6 +14,7 @@
 <script src="http://mallmaverick.kodekloud.io/mallmaverick.js?v=0.3"></script>
 <script src="http://mallmaverick.kodekloud.io/mustache_mallmaverick.js?v=0.3"></script>
 
+<script src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/145b5617a2a85b6ef2c3d662b08bcfcd/datepicker.js"></script>
 <!-- custom scrollbars plugin -->
 <script src="/scroll.js"></script>
 <script src="/application.js"></script>
