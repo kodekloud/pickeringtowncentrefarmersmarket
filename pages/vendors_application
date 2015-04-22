@@ -77,7 +77,10 @@
                 <input class="text" type="text" style="width:30%;" maxlength="255" />
                 
                 <label>Phone:<span class="req"> *</span></label>
-                <input class="text" type="text" size="3" maxlength="3"/>
+                <span>
+                    <input class="text" type="text" size="3" maxlength="3"/>
+                    <p>###</p>
+                </span>
             </form>
         </div>
     </div>
