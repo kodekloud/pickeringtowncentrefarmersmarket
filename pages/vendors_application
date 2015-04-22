@@ -11,7 +11,8 @@
       color: #cbe19b;
     }
     h3{
-        font-size: 110%;
+        float:left;
+        font-size: 80%;
         font-family: inherit;
         font-style: normal;
         font-weight: normal;
