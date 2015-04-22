@@ -12,6 +12,7 @@
 */
 
 var datepickr = function (selector, config) {
+    alert('hi');
     'use strict';
     var elements,
         createInstance,
