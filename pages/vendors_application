@@ -77,6 +77,7 @@
          background-color:rgba(0,0,0,0.2);
          color:white;
          float:left;
+         resize:none;
     }
     .phone-box{
         float:left;
