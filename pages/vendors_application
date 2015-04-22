@@ -6,7 +6,7 @@
 
 <div id="vendors-content2" class="mCustomScrollbar _mCS_1">
     <div class="mCustomScrollBox mCS-light-thick" id="mCSB_1" style="position:relative; height:100%; overflow:hidden; max-width:100%;">
-        <div class="mCSB_container" style="position: relative; top: 0px;">
+        <div class="mCSB_container">
             <h1 class="dotted">Vendors Application</h1>
             <iframe height="1950" allowtransparency="true" frameborder="0" scrolling="no" style="width:300px;border:none; margin-left:15px;" src="https://emagine1.wufoo.com/embed/r1r7uh7d1nalp2h/">&lt;a href="https://emagine1.wufoo.com/forms/r1r7uh7d1nalp2h/"&gt;Fill out my Wufoo form!&lt;/a&gt;</iframe>
         </div>
