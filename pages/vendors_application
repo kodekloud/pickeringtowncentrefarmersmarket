@@ -64,6 +64,8 @@
           font-weight:bold;
           font-family: inherit;
           color: #ffffff;
+          margin-left:5px;
+          margin-right:5px;
     }
 </style>
 <div id="vendors-content2" class="mCustomScrollbar _mCS_1">
