@@ -4,7 +4,11 @@
     $('.content-top').attr("id", "vendors");
 </script>
 
-<div id="vendors-content2" class="mCustomScrollbar _mCS_1"><div class="mCustomScrollBox mCS-light-thick" id="mCSB_1" style="position:relative; height:100%; overflow:hidden; max-width:100%;"><div class="mCSB_container" style="position: relative; top: 0px;">
-<h1 class="dotted">Vendors Application</h1>
-<iframe height="1950" allowtransparency="true" frameborder="0" scrolling="no" style="width:300px;border:none; margin-left:15px;" src="https://emagine1.wufoo.com/embed/r1r7uh7d1nalp2h/">&lt;a href="https://emagine1.wufoo.com/forms/r1r7uh7d1nalp2h/"&gt;Fill out my Wufoo form!&lt;/a&gt;</iframe>
-</div><div class="mCSB_scrollTools" style="position: absolute; display: block;"><a class="mCSB_buttonUp" oncontextmenu="return false;"></a><div class="mCSB_draggerContainer"><div class="mCSB_dragger" style="position: absolute; height: 163px; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="position: relative; line-height: 163px;"></div></div><div class="mCSB_draggerRail"></div></div><a class="mCSB_buttonDown" oncontextmenu="return false;"></a></div></div></div>
+<div id="vendors-content2" class="mCustomScrollbar _mCS_1">
+    <div class="mCustomScrollBox mCS-light-thick" id="mCSB_1" style="position:relative; height:100%; overflow:hidden; max-width:100%;">
+        <div class="mCSB_container" style="position: relative; top: 0px;">
+            <h1 class="dotted">Vendors Application</h1>
+            <iframe height="1950" allowtransparency="true" frameborder="0" scrolling="no" style="width:300px;border:none; margin-left:15px;" src="https://emagine1.wufoo.com/embed/r1r7uh7d1nalp2h/">&lt;a href="https://emagine1.wufoo.com/forms/r1r7uh7d1nalp2h/"&gt;Fill out my Wufoo form!&lt;/a&gt;</iframe>
+        </div>
+    </div>
+</div>
