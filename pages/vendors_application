@@ -86,6 +86,7 @@
   font-style: normal;
   font-weight: normal;
   color: #ffffff;
+  float:left;
     }
 </style>
 <div id="vendors-content2" class="mCustomScrollbar _mCS_1">
