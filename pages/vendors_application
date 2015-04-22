@@ -2,6 +2,9 @@
     clearActiveMenu();
     $('#vendors-nav').addClass('nav-vendors-active');
     $('.content-top').attr("id", "vendors");
+    window.addEvent('load', function() {
+	    new DatePicker('.demo', { positionOffset: { x: 0, y: 5 }});
+    });
 </script>
 <style>
     h2{
@@ -194,7 +197,7 @@
                 
                 
                 <label>Start Date (Please select a Tuesday):<span class="req"> *</span></label>
-                <input class="text" type="text" id="datepicker" />
+                <input name='date_B' type='text' value='' class='date demo' />
    
             </form>
         </div>
