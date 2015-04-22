@@ -160,16 +160,16 @@
                 <p style="line-height:25px;">Pickering Town Centre would like to invite you to submit your application for Pickering Town Centre Farmers’ Market, running every Tuesday from June 17th to October 14th, 2014 from 11am to 6pm. Please note we only have openings for the 2015 season at this point.</p>
                 
                 <label>Business Name:<span class="req"> *</span></label>
-                <input class="text" type="text" style="width:60%;" maxlength="255" />
+                <input class="text" type="text" style="width:60%;" maxlength="255" required/>
                 
                 <label>Contact Name:<span class="req"> *</span></label>
-                <input class="text" type="text" style="width:60%;" maxlength="255" />
+                <input class="text" type="text" style="width:60%;" maxlength="255" required/>
                 
                 <label>Address:<span class="req"> *</span></label>
-                <input class="text" type="text" style="width:60%;" maxlength="255" />
+                <input class="text" type="text" style="width:60%;" maxlength="255" required/>
                 
                 <label>Postal Code:<span class="req"> *</span></label>
-                <input class="text" type="text" style="width:30%;" maxlength="255" />
+                <input class="text" type="text" style="width:30%;" maxlength="255" required/>
                 
                 <label>Phone:<span class="req"> *</span></label>
                 <span class="phone-box">
