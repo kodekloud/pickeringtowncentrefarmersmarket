@@ -41,7 +41,7 @@
         border-left: 1px solid #c3c3c3;
         border-right: 1px solid #c3c3c3;
         border-bottom: 1px solid #ddd;
-        background-color:rgba(0,0,0,0.7);
+        background-color:rgba(0,0,0,0.2);
         padding: 2px 0;
     }
 </style>
