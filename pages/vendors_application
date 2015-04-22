@@ -85,6 +85,9 @@
                     <input class="text" type="text" size="3" maxlength="3" style="text-align:center;padding-left:0px;"/>
                     <p>###</p>
                 </span>
+                <span>
+                    <p>-</p>
+                </span>
             </form>
         </div>
     </div>
