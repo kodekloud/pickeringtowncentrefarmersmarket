@@ -4,6 +4,9 @@
     $('.content-top').attr("id", "vendors");
     
   
+  $( document ).ready(function() {
+   $('#datepicker').datepick({dateFormat: 'yyyy-mm-dd'});
+});
 </script>
 <style>
     h2{
