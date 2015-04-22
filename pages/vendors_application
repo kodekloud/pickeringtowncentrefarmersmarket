@@ -195,7 +195,11 @@
                 
                 <label>Start Date (Please select a Tuesday):<span class="req"> *</span></label>
                 <input  type='text' id="datepicker" class='text' />
-   
+                
+                <p class="week_text">Hydro:<span class="req"> *</span></p>
+                <input class="checkbox" type="checkbox"/><label class="checkboxLabel">Yes, I require hydro for my setup.</label>
+                <input class="checkbox" type="checkbox"/><label class="checkboxLabel">No, I do not require hydro for my setup.</label>
+                
             </form>
         </div>
     </div>
