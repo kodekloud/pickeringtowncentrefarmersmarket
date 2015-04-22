@@ -2,6 +2,8 @@
     clearActiveMenu();
     $('#vendors-nav').addClass('nav-vendors-active');
     $('.content-top').attr("id", "vendors");
+    
+    $('#datepicker').datepick({dateFormat: 'yyyy-mm-dd'});
 </script>
 <style>
     h2{
