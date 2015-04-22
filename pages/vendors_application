@@ -17,6 +17,7 @@
         font-style: normal;
         font-weight: normal;
         color: #ffffff;
+        width:100%;
     }
     p{
         font-size: 95%;
