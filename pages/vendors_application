@@ -21,6 +21,7 @@
         letter-spacing: .01em;
         width:300px;
         margin-left: 15px;
+        text-align:left;
     }
 </style>
 <div id="vendors-content2" class="mCustomScrollbar _mCS_1">
