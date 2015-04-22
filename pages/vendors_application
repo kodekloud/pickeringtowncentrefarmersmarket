@@ -1,0 +1,5 @@
+<script>
+    clearActiveMenu();
+    $('#vendors-nav').addClass('nav-vendors-active');
+    $('.content-top').attr("id", "vendors-content2");
+</script>
