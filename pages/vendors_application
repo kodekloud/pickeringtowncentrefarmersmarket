@@ -200,6 +200,14 @@
                 <input class="checkbox" type="checkbox"/><label class="checkboxLabel">Yes, I require hydro for my setup.</label>
                 <input class="checkbox" type="checkbox"/><label class="checkboxLabel">No, I do not require hydro for my setup.</label>
                 
+                <label>Number of sales areas required:</label>
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
             </form>
         </div>
     </div>
