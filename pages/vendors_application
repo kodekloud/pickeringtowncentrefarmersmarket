@@ -145,7 +145,7 @@
     .date-info{
         float:left;
         color:white;
-        font-size:80%;
+        font-size:70%;
         margin-left:15px;
         margin-top:7px;
     }
