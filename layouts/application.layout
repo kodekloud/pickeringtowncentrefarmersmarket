@@ -67,7 +67,7 @@ function clearActiveMenu(){
 		openEffect	: 'none',
 		closeEffect	: 'none'
 	});
-				      $('#datepicker').datepick({dateFormat: 'yyyy-mm-dd'});
+			    $('#datepicker').datepick({dateFormat: 'yyyy-mm-dd'});
 
 		})(jQuery);
 	</script>
