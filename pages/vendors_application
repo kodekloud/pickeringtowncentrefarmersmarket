@@ -68,6 +68,9 @@
                 
                 <label>Address:<span class="req"> *</span></label>
                 <input class="text" type="text" maxlength="255" required/>
+                
+                <label>Postal Code:<span class="req"> *</span></label>
+                <input class="text" type="text" maxlength="255" required/>
             </form>
         </div>
     </div>
