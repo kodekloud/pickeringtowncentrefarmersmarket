@@ -194,7 +194,7 @@
                 
                 
                 <label>Start Date (Please select a Tuesday):<span class="req"> *</span></label>
-                <input type="text" id="datepicker"/>
+                <input type="text" id="datepicker" />
             </form>
         </div>
     </div>
