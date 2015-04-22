@@ -129,7 +129,7 @@
     }
     .submit-btn{
         float:left;
-        height:35px;
+        
     }
 </style>
 <div id="vendors-content2" class="mCustomScrollbar _mCS_1">
