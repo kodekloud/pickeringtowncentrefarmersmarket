@@ -23,7 +23,7 @@
         width:300px;
         margin-left: 20px;
         text-align:left;
-           text-transform: none;
+        text-transform: none;
     }
 </style>
 <div id="vendors-content2" class="mCustomScrollbar _mCS_1">
