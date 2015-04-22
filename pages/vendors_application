@@ -92,7 +92,7 @@
                 <label>Phone:<span class="req"> *</span></label>
                 <span class="phone-box">
                     <input class="text" type="text" size="3" maxlength="3" style="text-align:center;padding-left:0px;"/>
-                    <p>###</p>
+                    <p style="text-align:center">###</p>
                 </span>
                 <span class="phone-box symbol">
                     <p>-</p>
