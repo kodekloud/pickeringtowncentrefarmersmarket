@@ -8,7 +8,7 @@
    //$('#datepicker').datepick({dateFormat: 'yyyy-mm-dd'});
    
 
-    $( "#datepicker" ).datepicker();
+    //$( "#datepicker" ).datepicker();
 
 });
 </script>
