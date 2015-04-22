@@ -32,8 +32,8 @@
         color:#ffffff;
         width:100%;
         float:left;
-        margin-bottom:5px;
-        margin-top:20px;
+        margin-bottom:8px;
+        margin-top:25px;
     }
     .req{
         color: red;
