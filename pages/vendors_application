@@ -202,6 +202,7 @@
                 
                 <label>Number of sales areas required:</label>
                 <select>
+                    <option value="-Please Select-" selected="selected">-Please Select-</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -211,6 +212,7 @@
                 
                 <label>Number of extra tables required:</label>
                 <select>
+                    <option value="-Please Select-" selected="selected">-Please Select-</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
