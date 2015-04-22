@@ -15,7 +15,7 @@
         font-style: normal;
         font-weight: normal;
         color: #ffffff;
-        margin-bottom:30px;
+        margin-bottom:15px;
      
     }
     .vendors-application{
