@@ -226,6 +226,9 @@
                     <option value="4">4</option>
                     <option value="5">5</option>
                 </select>
+                
+                <label>List of specific Items to be sold. (Please list all items)</label>
+                <textarea rows="10" cols="50"></textarea>
             </form>
         </div>
     </div>
