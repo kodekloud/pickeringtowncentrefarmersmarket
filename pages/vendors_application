@@ -28,6 +28,7 @@
     }
     label{
         color:#ffffff;
+        width:100%;
     }
     .req{
         color: red;
