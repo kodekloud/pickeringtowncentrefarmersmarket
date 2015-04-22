@@ -70,7 +70,7 @@
                 <input class="text" type="text" style="width:60%;" maxlength="255" required/>
                 
                 <label>Postal Code:<span class="req"> *</span></label>
-                <input class="text" type="text" style="width:40%;" maxlength="255" required/>
+                <input class="text" type="text" style="width:30%;" maxlength="255" required/>
                 
                 <label>Phone:<span class="req"> *</span></label>
                 <input class="text" type="text" maxlength="255" required/>
