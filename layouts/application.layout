@@ -18,6 +18,10 @@
 <!-- custom scrollbars plugin -->
 <script src="/scroll.js"></script>
 <script src="/application.js"></script>
+
+<script src="/datepicker.js"></script>
+<link href="/datepicker.css" rel="stylesheet">
+
 <script>
     setEndPoint('http://farmersmarket.mallmaverick.com/api/v2/farmersmarket/all.json');
 </script>
