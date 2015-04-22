@@ -40,7 +40,8 @@
         border-top: 1px solid #7c7c7c;
         border-left: 1px solid #c3c3c3;
         border-right: 1px solid #c3c3c3;
-        border-bottom: 1px solid #ddd;   
+        border-bottom: 1px solid #ddd;
+        background-color:#222;
         padding: 2px 0;
     }
 </style>
