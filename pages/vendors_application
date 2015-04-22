@@ -5,7 +5,11 @@
     
   
   $( document ).ready(function() {
-   $('#datepicker').datepick({dateFormat: 'yyyy-mm-dd'});
+   //$('#datepicker').datepick({dateFormat: 'yyyy-mm-dd'});
+   
+    $(function() {
+    $( "#datepicker" ).datepicker();
+  });
 });
 </script>
 <style>
