@@ -104,9 +104,8 @@
         color: #ffffff;
         float:left;
         margin-top:0px;
-        margin-bottom:5px;
         width:100%;
-        line-height:5px;
+        line-height:20px;
     }
     .week_text{
         width: 100%;
