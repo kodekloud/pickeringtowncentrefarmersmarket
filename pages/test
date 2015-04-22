@@ -1,6 +1,5 @@
 <script>
-
-    datepickr('#datepicker');
+  $('#datepicker').datepick({dateFormat: 'yyyy-mm-dd'});
 </script>
 
                 <input  type='text' id="datepicker" class='text' />
