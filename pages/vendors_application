@@ -49,7 +49,9 @@
     select{
         width:60%;
         float:left;
-         background-color:rgba(0,0,0,0.2);
+        background-color:rgba(0,0,0,0.2);
+        padding:10px;
+        color:white;
     }
     .req{
         color: red;
