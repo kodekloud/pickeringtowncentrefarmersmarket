@@ -107,6 +107,7 @@
         margin:0px;
         margin-left:10px;
         font-size:80%;
+        float:left;
     }
 </style>
 <div id="vendors-content2" class="mCustomScrollbar _mCS_1">
