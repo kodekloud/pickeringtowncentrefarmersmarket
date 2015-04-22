@@ -29,6 +29,10 @@
     label{
         color:#ffffff;
     }
+    .req{
+        color: red;
+        font-weight: bold;
+    }
 </style>
 <div id="vendors-content2" class="mCustomScrollbar _mCS_1">
     <div class="mCustomScrollBox mCS-light-thick" id="mCSB_1">
