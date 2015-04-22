@@ -18,6 +18,7 @@
     }
     .vendors-application{
         letter-spacing: .01em;
+        text-align:left;
     }
 </style>
 <div id="vendors-content2" class="mCustomScrollbar _mCS_1">
