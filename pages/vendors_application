@@ -6,7 +6,7 @@
 
 <div id="vendors-content2" class="mCustomScrollbar _mCS_1">
     <div class="mCustomScrollBox mCS-light-thick" id="mCSB_1">
-        <div class="mCSB_container">
+        <div class="mCSB_container" >
             <h1 class="dotted">Vendors Application</h1>
         </div>
     </div>
