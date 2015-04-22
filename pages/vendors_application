@@ -32,6 +32,8 @@
             <form class="vendors-application">
                 <h2>Farmers' Market</h2>
                 <p>Pickering Town Centre would like to invite you to submit your application for Pickering Town Centre Farmers’ Market, running every Tuesday from June 17th to October 14th, 2014 from 11am to 6pm. Please note we only have openings for the 2015 season at this point.</p>
+                
+                <label>Business Name:<span class="req">*</span></label>
             </form>
         </div>
     </div>
