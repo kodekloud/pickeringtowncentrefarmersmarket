@@ -19,9 +19,11 @@
 <script src="/scroll.js"></script>
 <script src="/application.js"></script>
 
-<script src="/datepicker.js"></script>
-<script src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/145b5617a2a85b6ef2c3d662b08bcfcd/plugin.js"></script>
 <link href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/145b5617a2a85b6ef2c3d662b08bcfcd/datepick.css" rel="stylesheet">
+
+<script src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/145b5617a2a85b6ef2c3d662b08bcfcd/plugin.js"></script>
+
+<script src="/datepicker.js"></script>
 
 <script>
     setEndPoint('http://farmersmarket.mallmaverick.com/api/v2/farmersmarket/all.json');
