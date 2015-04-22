@@ -19,6 +19,8 @@
     .vendors-application{
         font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
         letter-spacing: .01em;
+        width:300px;
+        margin-left: 15px;
     }
 </style>
 <div id="vendors-content2" class="mCustomScrollbar _mCS_1">
