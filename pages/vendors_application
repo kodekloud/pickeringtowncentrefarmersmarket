@@ -21,7 +21,7 @@
     <div class="mCustomScrollBox mCS-light-thick" id="mCSB_1">
         <div class="mCSB_container" >
             <h1 class="dotted">Vendors Application</h1>
-            <form>
+            <form class="verdors-application">
                 <h2>Farmers' Market</h2>
                 <p>PICKERING TOWN CENTRE WOULD LIKE TO INVITE YOU TO SUBMIT YOUR APPLICATION FOR PICKERING TOWN CENTRE FARMERS’ MARKET, RUNNING EVERY TUESDAY FROM JUNE 17TH TO OCTOBER 14TH, 2014 FROM 11AM TO 6PM. PLEASE NOTE WE ONLY HAVE OPENINGS FOR THE 2015 SEASON AT THIS POINT.</p>
             </form>
