@@ -63,7 +63,7 @@
                 <input class="text" type="text" maxlength="255" required/>
                 
                 <label>Business Name:<span class="req"> *</span></label>
-                <input class="text" type="text" maxlength="255"/>
+                <input class="text" type="text" maxlength="255" required/>
             </form>
         </div>
     </div>
