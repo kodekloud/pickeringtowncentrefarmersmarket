@@ -1,3 +1,10 @@
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/145b5617a2a85b6ef2c3d662b08bcfcd/datepick.js"></script>
+<script src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/145b5617a2a85b6ef2c3d662b08bcfcd/plugin.js"></script>
+<link href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/145b5617a2a85b6ef2c3d662b08bcfcd/datepick.css" rel="stylesheet">
+
+
 <script>
   $('#datepicker').datepick({dateFormat: 'yyyy-mm-dd'});
 </script>
