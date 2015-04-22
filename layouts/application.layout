@@ -6,11 +6,6 @@
 <link rel="stylesheet" type="text/css" href="/fancybox.css" media="screen">
 <link href="/scroll.css" rel="stylesheet">
 
-<link href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/145b5617a2a85b6ef2c3d662b08bcfcd/pikaday.css" rel="stylesheet">
-<link href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/145b5617a2a85b6ef2c3d662b08bcfcd/theme.css" rel="stylesheet">
-<link href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/145b5617a2a85b6ef2c3d662b08bcfcd/site.css" rel="stylesheet">
-
-<script src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/145b5617a2a85b6ef2c3d662b08bcfcd/pikaday.jquery.js"></script>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
