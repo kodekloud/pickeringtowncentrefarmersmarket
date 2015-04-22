@@ -96,6 +96,13 @@
         width: 100%;
         float:left;
     }
+    .checkbox{
+        display: block;
+        margin: 4px 0 0 0;
+        padding: 0;
+        width: 13px;
+        height: 13px;
+    }
 </style>
 <div id="vendors-content2" class="mCustomScrollbar _mCS_1">
     <div class="mCustomScrollBox mCS-light-thick" id="mCSB_1">
