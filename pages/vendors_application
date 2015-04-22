@@ -29,6 +29,7 @@
     label{
         color:#ffffff;
         width:100%;
+        float:fet;
     }
     .req{
         color: red;
