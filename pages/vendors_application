@@ -194,6 +194,11 @@
                 
                 
                 <label>Start Date (Please select a Tuesday):<span class="req"> *</span></label>
+                <input type="text" id="datepicker">
+                <script src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/145b5617a2a85b6ef2c3d662b08bcfcd/pikaday.js"></script>
+                <script>
+                    var picker = new Pikaday({ field: document.getElementById('datepicker') });
+                </script>
             </form>
         </div>
     </div>
