@@ -43,6 +43,11 @@
         border-bottom: 1px solid #ddd;
         background-color:rgba(0,0,0,0.2);
         padding: 2px 0;
+        font-family: inherit;
+        font-style: normal;
+        font-weight: normal;
+        color: #ffffff;
+        font-size: 100%;
     }
 </style>
 <div id="vendors-content2" class="mCustomScrollbar _mCS_1">
