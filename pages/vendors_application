@@ -81,12 +81,14 @@
           margin-right:5px;
     }
     .setup{
-        font-size: 85%;
-  font-family: inherit;
-  font-style: normal;
-  font-weight: normal;
-  color: #ffffff;
-  float:left;
+        font-size: 80%;
+        font-family: inherit;
+        font-style: normal;
+        font-weight: normal;
+        color: #ffffff;
+        float:left;
+        margin-top:0px;
+        margin-bottom:0px;
     }
 </style>
 <div id="vendors-content2" class="mCustomScrollbar _mCS_1">
