@@ -167,6 +167,8 @@
                 <p class="setup">One 8’ table with black skirt </p>
                 <p class="setup">One chair </p>
                 <p class="setup">ADDITIONAL TABLES: $10 PER TABLE</p>
+                
+                <label>NUMBER OF WEEKS:<span class="req"> *</span></label>
             </form>
         </div>
     </div>
