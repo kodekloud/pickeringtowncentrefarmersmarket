@@ -48,6 +48,7 @@
         border-bottom: 1px solid #ddd;
         background-color:rgba(0,0,0,0.2);
         padding: 4px 0;
+        padding-left:20px;
         font-family: inherit;
         font-style: normal;
         font-weight: normal;
