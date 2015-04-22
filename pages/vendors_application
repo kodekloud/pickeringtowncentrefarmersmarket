@@ -27,7 +27,7 @@
         text-transform: none;
     }
     label{
-        color:#00000;
+        color:#ffffff;
     }
 </style>
 <div id="vendors-content2" class="mCustomScrollbar _mCS_1">
