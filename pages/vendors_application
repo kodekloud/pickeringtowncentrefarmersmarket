@@ -218,7 +218,7 @@
                 </span>
                 
                 <label>Email Address:<span class="req"> *</span></label>
-                <input id="email" class="text" type="email" style="width:60%;" maxlength="255" required/>
+                <input id="email" class="text" type="email" style="width:60%;" maxlength="255"/>
                 
                 <label>Ontario Farm Registration No.(if applicable):</label>
                 <input id="registration-number" class="text" type="text" style="width:60%;" maxlength="255" />
