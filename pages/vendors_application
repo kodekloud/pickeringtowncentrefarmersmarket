@@ -31,7 +31,7 @@
         if($('#business-name').val() == ''){
             
             $("#vendors-content2").mCustomScrollbar({
-                setTop:300
+                setTop:"300px"
             });
             
             
