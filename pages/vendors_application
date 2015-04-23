@@ -40,6 +40,10 @@
       var fax_number = area_fax + middle_fax + last_fax;
       $('#fax-number').val(fax_number);
       
+      
+      alert($('#full-season').prop('checked', false));
+      alert($('#short-term').prop('checked', false));  
+      
         if($('#business-name').val() == ''){
             $('.mCSB_container').css('top','-400px');
             $('.mCSB_dragger').css('top','105px');
