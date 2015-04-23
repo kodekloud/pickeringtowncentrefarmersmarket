@@ -50,7 +50,7 @@
             return false;
         }else if( $('#area-phone').val() == '' || $('#area-phone').val().length != 3){
         }else if( $('#middle-phone').val() == '' || $('#middle-phone').val().length != 3){
-        }else if( $('#last-phone').val() == '' || $('#last-phone').val().length != 3){
+        }else if( $('#last-phone').val() == '' || $('#last-phone').val().length != 4){
         }else if(){
         }else if(){
         }else if(){
