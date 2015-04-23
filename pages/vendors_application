@@ -4,11 +4,15 @@
     $('.content-top').attr("id", "vendors");
     
   
-  $( document ).ready(function() {
-   //$('#datepicker').datepick({dateFormat: 'yyyy-mm-dd'});
+    $( document ).ready(function() {
+    //$('#datepicker').datepick({dateFormat: 'yyyy-mm-dd'});
    
 
     $( "#datepicker" ).datepicker();
+    
+    $('input.example').on('change', function() {
+        $('input.example').not(this).prop('checked', false);  
+    });
     
     function validateApplication(){
         
