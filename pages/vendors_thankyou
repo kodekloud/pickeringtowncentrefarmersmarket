@@ -4,4 +4,5 @@
     $('.content-top').attr("id", "vendors");
 </script>
 <div id="vendors-content2">
+<h1>Thank you</h1>
 </div>
