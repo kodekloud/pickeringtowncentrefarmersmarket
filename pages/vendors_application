@@ -218,10 +218,10 @@
                 </span>
                 
                 <label>Email Address:<span class="req"> *</span></label>
-                <input class="text" type="email" style="width:60%;" maxlength="255" required/>
+                <input id="email" class="text" type="email" style="width:60%;" maxlength="255" required/>
                 
                 <label>Ontario Farm Registration No.(if applicable):</label>
-                <input class="text" type="text" style="width:60%;" maxlength="255" />
+                <input id="registration-number" class="text" type="text" style="width:60%;" maxlength="255" />
                 
                 <h3>SETUP FEES</h3>
                 <p class="setup">$35 PER SALES AREA</p>
@@ -232,19 +232,19 @@
                 <p class="setup">ADDITIONAL TABLES: $10 PER TABLE</p>
                 
                 <p class="week_text" style="margin-top:25px;">NUMBER OF WEEKS:<span class="req"> *</span></p>
-                <input class="checkbox" type="checkbox"/><label class="checkboxLabel">Full Season (18 Weeks)</label>
-                <input class="checkbox" type="checkbox"/><label class="checkboxLabel">Short-Term Vendor (5 consecutive weeks – please select dates below)</label>
+                <input id="full-season" class="checkbox" type="checkbox"/><label class="checkboxLabel">Full Season (18 Weeks)</label>
+                <input id="short-term" class="checkbox" type="checkbox"/><label class="checkboxLabel">Short-Term Vendor (5 consecutive weeks – please select dates below)</label>
                 
                 
                 <label>Start Date (Please select a Tuesday):<span class="req"> *</span></label>
-                <input id="datepicker" class='text' required/><span class="date-info">MM/DD/YYYY</span>
+                <input id="datepicker" class='text'/><span class="date-info">MM/DD/YYYY</span>
                 
                 <p class="week_text">Hydro:<span class="req"> *</span></p>
-                <input class="checkbox" type="checkbox"/><label class="checkboxLabel">Yes, I require hydro for my setup.</label>
-                <input class="checkbox" type="checkbox"/><label class="checkboxLabel">No, I do not require hydro for my setup.</label>
+                <input id="hydro-yes" class="checkbox" type="checkbox"/><label class="checkboxLabel">Yes, I require hydro for my setup.</label>
+                <input id="hydro-no" class="checkbox" type="checkbox"/><label class="checkboxLabel">No, I do not require hydro for my setup.</label>
                 
                 <label>Number of sales areas required:</label>
-                <select>
+                <select id="number-area">
                     <option value="0" selected="selected" disabled>-Please Select-</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -254,7 +254,7 @@
                 </select>
                 
                 <label>Number of extra tables required:</label>
-                <select>
+                <select id="number-table" >
                     <option value="0" selected="selected" disabled>-Please Select-</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -264,7 +264,7 @@
                 </select>
                 
                 <label>List of specific Items to be sold. (Please list all items)</label>
-                <textarea rows="10" cols="50"></textarea>
+                <textarea id="item-list" rows="10" cols="50"></textarea>
                 
                 <h3>APPLICATION SUBMISSION</h3>
                  <p class="setup">Please click 'Submit' below to submit your application. A member of our marketing team will be in contact with you.</p>
