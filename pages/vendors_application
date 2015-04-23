@@ -30,7 +30,7 @@
   function validateApplication(){
         if($('#business-name').val() == ''){
             $('html, form').animate({
-                scrollTop: $("#elementtoScrollToID").offset().top
+                scrollTop: $("#datepicker").offset().top
             }, 2000);
             //$("#business-name").focus();
             return false;
