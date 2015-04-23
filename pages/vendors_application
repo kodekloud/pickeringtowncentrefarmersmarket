@@ -30,7 +30,7 @@
   function validateApplication(){
         if($('#business-name').val() == ''){
                     alert('in if');
-
+             $("#business-name").focus();
             $(document).scrollTop( $("#business-name").offset().top );  
             return false;
         }
