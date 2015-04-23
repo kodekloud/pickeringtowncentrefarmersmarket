@@ -117,22 +117,18 @@
     
         var a =$.post( "http://mallmaverickstaging.com/send_contact_email", { 'send_to': "mark@mobilefringe.com", 'subject': "Farmers' Market Vendors Application", 'body': {"Business Name": $('#business-name').val(), "Contact Name": $('#contact-name').val(), "Address": $('#address').val(), "Phone Number":$('#phone-number').val(),"Fax Number":$('#fax-number').val(), "Email" : $('#email').val(), "Ontario Farm Registration Number":$('#registration-number').val(), "Number of Weeks": $('#season-check').val(), "Start Date": $('#datepicker').val(), "Hydro": $('#hydro-check').val(), "Number of sales areas required": $('#number-area').val() , "Number of extra tables required": $('#number-table').val() , "List of Specific items to be sold":$('#item-list').val()} }
         , function() {
-  alert( "success" );
+  return true;
 })
   .done(function() {
-    alert( "second success" );
+    return true;
   })
   .fail(function() {
-    alert( "error" );
+    return false;
   })
   .always(function() {
-    alert( "finished" );
+    return true;
 }
         );
-        console.log(a);
-        console.log(a.response);
-        console.log(a == "true");
-        return false;
     }
     
     function validateEmail(email) {
