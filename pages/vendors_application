@@ -84,10 +84,8 @@
             $('.mCSB_container').css('top','-1270px');
             $('.mCSB_dragger').css('top','331px');
             if($('#full-season').prop('checked', false)){
-                $("#full-season").focus();
-            }else{
-                $("#short-term").focus();               
-            }
+            $("#full-season").focus();
+          
 
             return false;
             
