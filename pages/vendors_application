@@ -97,7 +97,7 @@
             $('.mCSB_dragger').css('top','380px');
             $("##hydro-yes").focus();
             return false;
-            
+        }   
         
         return true;
     }
