@@ -10,8 +10,8 @@
 
     $( "#datepicker" ).datepicker();
     
-    $('input.example').on('change', function() {
-        $('input.example').not(this).prop('checked', false);  
+    $('#full-season').on('change', function() {
+        $('#short-term').not(this).prop('checked', false);  
     });
     
     function validateApplication(){
