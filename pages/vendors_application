@@ -81,7 +81,7 @@
             $('.mCSB_dragger').css('top','237px');
             $("#email").focus();
             return false;
-        } else if(!($('#full-season').is('checked')) && !($('#short-term').is('checked'))){
+        } else if(!($('#full-season').is(':checked')) && !($('#short-term').is(':checked'))){
             $('.mCSB_container').css('top','-1270px');
             $('.mCSB_dragger').css('top','331px');
             $("#full-season").focus();
