@@ -102,7 +102,7 @@
       var fax_number = area_fax + middle_fax + last_fax;
       $('#fax-number').val(fax_number);
         
-        $.post( "http://mallmaverickstaging.com/send_contact_email", { 'send_to': "mark@mobilefringe.com", 'subject': "Farmers' Market Vendors Application", 'body': {"Business Name": $('#business-name').val(), "Contact Name": $('#contact-name').val(), "Email" : $('#email').val(), "Phone Number":$('#phone-number').val(),"List of Specific items to be sold":$('#item-list').val()} } );
+        $.post( "http://mallmaverickstaging.com/send_contact_email", { 'send_to': "mark@mobilefringe.com", 'subject': "Farmers' Market Vendors Application", 'body': {"Business Name": $('#business-name').val(), "Contact Name": $('#contact-name').val(), "Address": $('#address').val(), "Email" : $('#email').val(), "Phone Number":$('#phone-number').val(),"List of Specific items to be sold":$('#item-list').val()} } );
 
         return true;
     }
