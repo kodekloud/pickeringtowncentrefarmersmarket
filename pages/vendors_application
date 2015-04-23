@@ -123,7 +123,7 @@
     return true;
   })
   .fail(function() {
-    alert('Please try again later.')
+    alert('Please try again later.');
   })
   .always(function() {
     return true;
