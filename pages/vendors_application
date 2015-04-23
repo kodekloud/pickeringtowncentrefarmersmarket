@@ -93,8 +93,8 @@
             $("#datepicker").focus();
             return false;
         } else if(!($('#hydro-yes').is(':checked')) && !($('#hydro-no').is(':checked'))){
-            $('.mCSB_container').css('top','-1270px');
-            $('.mCSB_dragger').css('top','331px');
+            $('.mCSB_container').css('top','-1460px');
+            $('.mCSB_dragger').css('top','380px');
             $("##hydro-yes").focus();
             return false;
             
