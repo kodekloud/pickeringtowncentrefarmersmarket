@@ -49,6 +49,10 @@
             $("#postal-code").focus();
             return false;
         }else if( $('#area-phone').val() == '' || $('#area-phone').val().length != 3){
+            $('.mCSB_container').css('top','-645px');
+            $('.mCSB_dragger').css('top','168px');
+            $("#area-phone").focus();
+            return false;
         }else if( $('#middle-phone').val() == '' || $('#middle-phone').val().length != 3){
         }else if( $('#last-phone').val() == '' || $('#last-phone').val().length != 4){
         }else if(){
