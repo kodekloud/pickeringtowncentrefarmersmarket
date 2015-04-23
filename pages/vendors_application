@@ -40,10 +40,7 @@
       var fax_number = area_fax + middle_fax + last_fax;
       $('#fax-number').val(fax_number);
       
-      
-      alert($('#full-season').prop('checked', false));
-      alert($('#short-term').prop('checked', false));  
-      
+     
         if($('#business-name').val() == ''){
             $('.mCSB_container').css('top','-400px');
             $('.mCSB_dragger').css('top','105px');
@@ -84,7 +81,7 @@
             $('.mCSB_dragger').css('top','237px');
             $("#email").focus();
             return false;
-        } else if($('#full-season').prop('checked', false) && $('#short-term').prop('checked', false)){
+        } else if(!($('#full-season').is('checked')) && !($('#short-term').is('checked'))){
             $('.mCSB_container').css('top','-1270px');
             $('.mCSB_dragger').css('top','331px');
             $("#full-season").focus();
