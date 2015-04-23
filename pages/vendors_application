@@ -207,7 +207,7 @@
                 <input id="business-name" class="text" type="text" style="width:60%;" maxlength="255" />
                 
                 <label>Contact Name:<span class="req"> *</span></label>
-                <input id="contant-name" class="text" type="text" style="width:60%;" maxlength="255" />
+                <input id="contact-name" class="text" type="text" style="width:60%;" maxlength="255" />
                 
                 <label>Address:<span class="req"> *</span></label>
                 <input id="address" class="text" type="text" style="width:60%;" maxlength="255" />
