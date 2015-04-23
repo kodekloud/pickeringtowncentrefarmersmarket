@@ -34,6 +34,10 @@
             $("#business-name").focus();
             return false;
         }else if( $('#contact-name').val() == ''){
+            $('.mCSB_container').css('top','-490px');
+            $('.mCSB_dragger').css('top','128px');
+            $("#business-name").focus();
+            return false;
         }else if( $('#business-name').val() == ''){
         }else if( $('#business-name').val() == ''){
         }else if( $('#business-name').val() == ''){
