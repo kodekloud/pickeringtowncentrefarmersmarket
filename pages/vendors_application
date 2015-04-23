@@ -33,7 +33,7 @@
             $("#business-name").focus();
             return false;
         }else if( $('#datepicker').val() == ''){
-            $(".req").focus();
+            $("#datepicker").focus();
             return false;
         }
         return true;
