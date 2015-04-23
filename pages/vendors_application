@@ -192,6 +192,7 @@
                 <label>Postal Code:<span class="req"> *</span></label>
                 <input id="postal-code" class="text" type="text" style="width:30%;" maxlength="255" />
                 
+                <input type="hidden" id="phone-number" />
                 <label>Phone:<span class="req"> *</span></label>
                 <span class="phone-box">
                     <input id="area-phone" class="text" type="text" size="3"   maxlength="3" style="text-align:center;padding-left:0px;" />
@@ -212,7 +213,7 @@
                     <p>####</p>
                 </span>
                 
-                
+                <input type="hidden" id="fax-number" />
                 <label>Fax:</label>
                 <span class="phone-box">
                     <input id="area-fax" class="text" type="text" size="3" maxlength="3" style="text-align:center;padding-left:0px;"/>
