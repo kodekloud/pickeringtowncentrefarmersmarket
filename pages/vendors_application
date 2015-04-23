@@ -33,13 +33,11 @@
       var last_phone = $('#last-phone').val();
       var phone_number = area_phone + middle_phone + last_phone;
       $('#phone-number').val(phone_number);
-      alert(phone_number);
       
       var area_fax = $('#area-fax').val();
       var middle_fax = $('#middle-fax').val();
       var last_fax = $('#last-fax').val();
       var fax_number = area_fax + middle_fax + last_fax;
-      alert(fax_number);
       
       $('#fax-number').val(fax_number);
       
