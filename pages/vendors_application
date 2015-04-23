@@ -28,17 +28,7 @@
 });
 
   function validateApplication(){
-      var area_phone = $('#area-phone').val();
-      var middle_phone = $('#middle-phone').val();
-      var last_phone = $('#last-phone').val();
-      var phone_number = area_phone + middle_phone + last_phone;
-      $('#phone-number').val(phone_number);
-      
-      var area_fax = $('#area-fax').val();
-      var middle_fax = $('#middle-fax').val();
-      var last_fax = $('#last-fax').val();
-      var fax_number = area_fax + middle_fax + last_fax;
-      $('#fax-number').val(fax_number);
+
       
      
         if($('#business-name').val() == ''){
@@ -99,6 +89,21 @@
             return false;
         }   
         
+        
+      var area_phone = $('#area-phone').val();
+      var middle_phone = $('#middle-phone').val();
+      var last_phone = $('#last-phone').val();
+      var phone_number = area_phone + middle_phone + last_phone;
+      $('#phone-number').val(phone_number);
+      
+      var area_fax = $('#area-fax').val();
+      var middle_fax = $('#middle-fax').val();
+      var last_fax = $('#last-fax').val();
+      var fax_number = area_fax + middle_fax + last_fax;
+      $('#fax-number').val(fax_number);
+        
+        $.post( "http://mallmaverickstaging.com/send_contact_email", { 'send_to': "mark@mobilefringe.com", 'subject': "Farmers' Market Vendors Application", 'body': {"Name": $('#business-name').val(), "Email" : $('#email').val(), "Phone Number":$('#phone-number').val(),"List of Specific items to be sold":$('#item-list').val()} } );
+
         return true;
     }
     
