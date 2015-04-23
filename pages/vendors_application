@@ -25,8 +25,9 @@
     $('#hydro-no').on('change', function() {
         $('#hydro-yes').not(this).prop('checked', false);  
     });
-    
-    function validateApplication(){
+});
+
+  function validateApplication(){
         alert('in functio');
         if($('#business-name').val() == ''){
                     alert('in if');
@@ -36,8 +37,6 @@
         }
        // return true;
     }
-
-});
 </script>
 <style>
     h2{
