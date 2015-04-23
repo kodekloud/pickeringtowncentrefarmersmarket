@@ -38,7 +38,6 @@
       var middle_fax = $('#middle-fax').val();
       var last_fax = $('#last-fax').val();
       var fax_number = area_fax + middle_fax + last_fax;
-      
       $('#fax-number').val(fax_number);
       
         if($('#business-name').val() == ''){
