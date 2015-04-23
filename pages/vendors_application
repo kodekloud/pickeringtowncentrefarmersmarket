@@ -83,7 +83,12 @@
         } else if($('#full-season').prop('checked', false) && $('#short-term').prop('checked', false)){
             $('.mCSB_container').css('top','-1270px');
             $('.mCSB_dragger').css('top','331px');
-            $("#email").focus();
+            if($('#full-season').prop('checked', false)){
+                $("#full-season").focus();
+            }else{
+                $("#short-term").focus();               
+            }
+
             return false;
             
         }else if( $('#datepicker').val() == ''){
