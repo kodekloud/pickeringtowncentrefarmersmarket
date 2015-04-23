@@ -9,6 +9,11 @@
    
 
     $( "#datepicker" ).datepicker();
+    
+    function validateApplication(){
+        
+        return true;
+    }
 
 });
 </script>
