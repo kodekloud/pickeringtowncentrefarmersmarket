@@ -18,6 +18,14 @@
         $('#full-season').not(this).prop('checked', false);  
     });
     
+     $('#hydro-yes').on('change', function() {
+        $('#hydro-no').not(this).prop('checked', false);  
+    });
+    
+    $('#hydro-no').on('change', function() {
+        $('#hydro-yes').not(this).prop('checked', false);  
+    });
+    
     function validateApplication(){
         
         return true;
