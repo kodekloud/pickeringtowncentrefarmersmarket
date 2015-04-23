@@ -29,8 +29,10 @@
 
   function validateApplication(){
         if($('#business-name').val() == ''){
-            alert('in if');
-            $("#business-name").focus();
+            $('html, form').animate({
+                scrollTop: $("#elementtoScrollToID").offset().top
+            }, 2000);
+            //$("#business-name").focus();
             return false;
         }else if( $('#datepicker').val() == ''){
             $("#datepicker").focus();
