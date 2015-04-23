@@ -14,6 +14,10 @@
         $('#short-term').not(this).prop('checked', false);  
     });
     
+    $('#short-term').on('change', function() {
+        $('#full-season').not(this).prop('checked', false);  
+    });
+    
     function validateApplication(){
         
         return true;
