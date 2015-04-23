@@ -28,14 +28,13 @@
 });
 
   function validateApplication(){
-        alert('in functio');
         if($('#business-name').val() == ''){
                     alert('in if');
 
             $(document).scrollTop( $("#business-name").offset().top );  
             return false;
         }
-       // return true;
+        return true;
     }
 </script>
 <style>
