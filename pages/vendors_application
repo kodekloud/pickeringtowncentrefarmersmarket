@@ -29,7 +29,7 @@
 
   function validateApplication(){
         if($('#business-name').val() == ''){
-             $('form').scrollTop( $("#datepicker").offset().top ); 
+             $('#vendors-content2').scrollTop( $("#datepicker").offset().top ); 
             //$("#business-name").focus();
             return false;
         }else if( $('#datepicker').val() == ''){
