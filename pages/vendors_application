@@ -30,13 +30,8 @@
   function validateApplication(){
         if($('#business-name').val() == ''){
             
-            $("#vendors-content2").mCustomScrollbar({
-                setTop:"300px"
-            });
-            
-            
-            
-        
+            $('.mCSB_container').css('top','-1374px');
+            $('.mCSB_dragger').css('top','358px');
             //$("#business-name").focus();
             return false;
         }else if( $('#datepicker').val() == ''){
