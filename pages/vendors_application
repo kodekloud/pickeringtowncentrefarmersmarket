@@ -31,7 +31,7 @@
             $(document).scrollTop( $("#business-name").offset().top );  
             return false;
         }
-        return true;
+       // return true;
     }
 
 });
