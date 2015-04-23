@@ -27,7 +27,9 @@
     });
     
     function validateApplication(){
-        
+        if($('#business-name').val() == ''){
+            $(document).scrollTop( $("#business-name").offset().top );  
+        }
         return true;
     }
 
