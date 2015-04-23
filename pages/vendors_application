@@ -29,8 +29,8 @@
 
   function validateApplication(){
         if($('#business-name').val() == ''){
-            $('.mCSB_container').css('top','-1374px');
-            $('.mCSB_dragger').css('top','358px');
+            $('.mCSB_container').css('top','-400px');
+            $('.mCSB_dragger').css('top','105px');
             $("#business-name").focus();
             return false;
         }else if( $('#datepicker').val() == ''){
