@@ -48,9 +48,9 @@
             $('.mCSB_dragger').css('top','168px');
             $("#postal-code").focus();
             return false;
-        }else if( $('#area-phone').val() == ''){
-        }else if( $('#middle-phone').val() == ''){
-        }else if( $('#last-phone').val() == ''){
+        }else if( $('#area-phone').val() == '' || $('#area-phone').val().length != 3){
+        }else if( $('#middle-phone').val() == '' || $('#middle-phone').val().length != 3){
+        }else if( $('#last-phone').val() == '' || $('#last-phone').val().length != 3){
         }else if(){
         }else if(){
         }else if(){
