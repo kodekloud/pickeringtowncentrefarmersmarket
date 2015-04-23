@@ -29,7 +29,15 @@
 
   function validateApplication(){
         if($('#business-name').val() == ''){
-             $('.mCSB_container').scrollTop( 300 ); 
+            
+            $(".content").mCustomScrollbar({
+                setTop:300
+            });
+            
+            
+            
+            
+             $('#vendors-content2').scrollTop( 300 ); 
             //$("#business-name").focus();
             return false;
         }else if( $('#datepicker').val() == ''){
