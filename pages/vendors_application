@@ -80,6 +80,12 @@
             $('.mCSB_dragger').css('top','237px');
             $("#email").focus();
             return false;
+        } else if($('#full-season').prop('checked', false) && $('#short-term').prop('checked', false)){
+            $('.mCSB_container').css('top','-1270px');
+            $('.mCSB_dragger').css('top','331px');
+            $("#email").focus();
+            return false;
+            
         }else if( $('#datepicker').val() == ''){
             $('.mCSB_container').css('top','-1374px');
             $('.mCSB_dragger').css('top','358px');
