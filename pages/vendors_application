@@ -30,12 +30,12 @@
   function validateApplication(){
         if($('#business-name').val() == ''){
             
-            $('.mCSB_container').css('top','-1374px');
-            $('.mCSB_dragger').css('top','358px');
-            $("#datepicker").focus();
+            
             //$("#business-name").focus();
             return false;
         }else if( $('#datepicker').val() == ''){
+            $('.mCSB_container').css('top','-1374px');
+            $('.mCSB_dragger').css('top','358px');
             $("#datepicker").focus();
             return false;
         }
