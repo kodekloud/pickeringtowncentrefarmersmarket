@@ -328,16 +328,16 @@
                 <p class="setup">ADDITIONAL TABLES: $10 PER TABLE</p>
                 
                 <p class="week_text" style="margin-top:25px;">NUMBER OF WEEKS:<span class="req"> *</span></p>
-                <input id="full-season" class="checkbox" type="checkbox"/><label class="checkboxLabel">Full Season (18 Weeks)</label>
-                <input id="short-term" class="checkbox" type="checkbox"/><label class="checkboxLabel">Short-Term Vendor (5 consecutive weeks – please select dates below)</label>
+                <input id="full-season" class="checkbox" type="checkbox" value="full season" /><label class="checkboxLabel">Full Season (18 Weeks)</label>
+                <input id="short-term" class="checkbox" type="checkbox" value="short term" /><label class="checkboxLabel">Short-Term Vendor (5 consecutive weeks – please select dates below)</label>
                 
                 
                 <label>Start Date (Please select a Tuesday):<span class="req"> *</span></label>
                 <input id="datepicker" class='text'/><span class="date-info">MM/DD/YYYY</span>
                 
                 <p class="week_text">Hydro:<span class="req"> *</span></p>
-                <input id="hydro-yes" class="checkbox" type="checkbox"/><label class="checkboxLabel">Yes, I require hydro for my setup.</label>
-                <input id="hydro-no" class="checkbox" type="checkbox"/><label class="checkboxLabel">No, I do not require hydro for my setup.</label>
+                <input id="hydro-yes" class="checkbox" type="checkbox" value="yes"/><label class="checkboxLabel">Yes, I require hydro for my setup.</label>
+                <input id="hydro-no" class="checkbox" type="checkbox" value="no" /><label class="checkboxLabel">No, I do not require hydro for my setup.</label>
                 
                 <label>Number of sales areas required:</label>
                 <select id="number-area">
