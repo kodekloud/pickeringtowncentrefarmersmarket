@@ -44,13 +44,13 @@
             $("#address").focus();
             return false;
         }else if( $('#postal-code').val() == ''){
-            $('.mCSB_container').css('top','-575px');
-            $('.mCSB_dragger').css('top','150px');
+            $('.mCSB_container').css('top','-645px');
+            $('.mCSB_dragger').css('top','168px');
             $("#postal-code").focus();
             return false;
-        }else if( $('#business-name').val() == ''){
-        }else if( $('#business-name').val() == ''){
-        }else if( $('#business-name').val() == ''){
+        }else if( $('#area-phone').val() == ''){
+        }else if( $('#middle-phone').val() == ''){
+        }else if( $('#last-phone').val() == ''){
         }else if(){
         }else if(){
         }else if(){
