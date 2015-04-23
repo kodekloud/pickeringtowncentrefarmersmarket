@@ -28,6 +28,11 @@
 });
 
   function validateApplication(){
+      var area_phone = $('#area-phone').val();
+      var middle_phone = $('#middle-phone').val();
+      var last_phone = $('#last-phone').val();
+      
+      
         if($('#business-name').val() == ''){
             $('.mCSB_container').css('top','-400px');
             $('.mCSB_dragger').css('top','105px');
