@@ -53,6 +53,15 @@ function clearActiveMenu(){
     $('#gallery-nav').removeClass('nav-gallery-active');
     $('#gallery-nav').addClass('nav-gallery');
 }
+
+  $(".vendors-nav-list").hover(
+        function () {
+            $('ul.file_menu').stop(true,true).slideDown('medium');
+        }, 
+        function () {
+            $('ul.file_menu').stop(true,true).slideUp('medium');
+        }
+    });
     
 </script>
 
