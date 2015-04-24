@@ -231,6 +231,12 @@ h4 {
   visibility: visible;
 }
 
+.vendors-nav-list li:hover ul{
+  display: block;
+  opacity: 1;
+  visibility: visible;   
+}
+
 .gallery-thumbnail{
     width:94px; 
     height:94px; 
