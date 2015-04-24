@@ -288,7 +288,9 @@
     <div id="vendors-content3" style="display:none">
         <h1>Thank you</h1>
     </div>
-
+<div id="vendors-content4" style="display:none">
+        <h1>Sorry</h1>
+    </div>
 
 <div id="vendors-content2" class="mCustomScrollbar _mCS_1">
 
