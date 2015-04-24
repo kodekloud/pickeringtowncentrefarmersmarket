@@ -31,13 +31,14 @@
 
 <script>
     setEndPoint('http://farmersmarket.mallmaverick.com/api/v2/farmersmarket/all.json');
-    
+     $(document).ready(function(){
+
      $(".test").hover(function() {
             $("#tests").show("slow");
           }, function(){
             $("#tests").hide("slow");
           });
-    
+     });
  
 </script>
 
