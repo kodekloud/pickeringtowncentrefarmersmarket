@@ -285,9 +285,7 @@
         margin-top:7px;
     }
 </style>
-<div id="thankyou_section" style="display:none">
-    <h1 class="dotted">Vendors Application</h1>
-</div>
+
 <div id="vendors-content2" class="mCustomScrollbar _mCS_1">
     <div id="thankyou_section" style="display:none">
         <h1 class="dotted">Vendors Application</h1>
