@@ -283,6 +283,8 @@
 </style>
     <div id="vendors-content3" style="display:none">
         <h1>Thank you</h1>
+        
+        <p>We will review your application and contact your shortly.</p>
     </div>
 <div id="vendors-content4" style="display:none">
         <h1>Sorry</h1>
