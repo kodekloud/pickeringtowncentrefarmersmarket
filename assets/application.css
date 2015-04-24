@@ -231,7 +231,7 @@ h4 {
 /*  visibility: visible;*/
 /*}*/
 
-.vendors-nav-list li:hover ul{
+.vendors-nav-list:hover{
   display: block;
   opacity: 1;
   visibility: visible;   
