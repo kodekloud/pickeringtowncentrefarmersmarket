@@ -232,7 +232,7 @@ h4 {
 /*  visibility: visible;*/
 /*}*/
 
-#nav li ul { display: block; visibility:visible; opacity:1;}
+#nav li:hover ul { display: block; visibility:visible; opacity:1;}
 
 .gallery-thumbnail{
     width:94px; 
