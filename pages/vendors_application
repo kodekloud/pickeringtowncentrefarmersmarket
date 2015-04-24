@@ -1,7 +1,6 @@
 <script>
     clearActiveMenu();
     $('#vendors-nav').addClass('nav-vendors-active');
-    $('#vendors-nav').removeClass('nav-vendors');
     $('.content-top').attr("id", "vendors");
     
   
