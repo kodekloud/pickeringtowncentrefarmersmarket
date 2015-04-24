@@ -409,7 +409,7 @@
                 <h3>APPLICATION SUBMISSION</h3>
                  <p class="setup">Please click 'Submit' below to submit your application. A member of our marketing team will be in contact with you.</p>
             
-                <input type="button" onclick="validateApplication() " value="Submit" class="submit-btn"/>
+                <input type="button" onclick="validateApplication()" value="Submit" class="submit-btn"/>
             </div>
         </div>
     </div>
