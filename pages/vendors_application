@@ -135,11 +135,7 @@
                      $('#vendors-content4').show();
                 }
             });
-        
-        
-        
         return false;
-
     }
     
     function validateEmail(email) {
