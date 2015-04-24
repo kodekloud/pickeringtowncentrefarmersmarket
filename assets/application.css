@@ -226,7 +226,7 @@ h4 {
 	}
 #nav  ul li ul li:hover { color:#cbe19b; }
 #nav  ul li:hover ul {
-  display: block;
+  display: inline-block;
   opacity: 1;
   visibility: visible;
 }
