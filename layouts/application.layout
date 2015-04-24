@@ -34,9 +34,9 @@
      $(document).ready(function(){
 
      $(".test").hover(function() {
-            $("#tests").show("slow");
+            $("#tests").show();
           }, function(){
-            $("#tests").hide("slow");
+            $("#tests").hide();
           });
      });
  
