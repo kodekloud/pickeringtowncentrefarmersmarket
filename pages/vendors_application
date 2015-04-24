@@ -132,7 +132,8 @@
                 },
                 error: function (jqXHR, textStatus, errorThrown)
                 {
-                    console.log('failed');
+                    $('#vendors-content2').hide();
+                     $('#vendors-content4').show();
                 }
             });
         
