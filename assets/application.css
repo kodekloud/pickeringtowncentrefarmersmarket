@@ -229,11 +229,7 @@ h4 {
 /*  visibility: visible;*/
 /*}*/
 
-#nav li:hover ul { 
-    display: block;  
-    opacity:1;
 
-}
 
 .gallery-thumbnail{
     width:94px; 
