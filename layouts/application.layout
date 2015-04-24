@@ -54,15 +54,6 @@ function clearActiveMenu(){
     $('#gallery-nav').addClass('nav-gallery');
 }
 
-  $(".vendors-nav-list").hover(
-        function () {
-            $('ul.file_menu').stop(true,true).slideDown('medium');
-        }, 
-        function () {
-            $('ul.file_menu').stop(true,true).slideUp('medium');
-        }
-    });
-    
 </script>
 
 
@@ -102,8 +93,8 @@ function clearActiveMenu(){
                     <li><a id="events-nav" href="/events" class="nav-events">&nbsp;</a></li>
                     <li><a id="partners-nav" href="/partners" class="nav-partners">&nbsp;</a></li>
                 
-                    <li class="vendors-nav-list"><a id="vendors-nav" href="/vendors" class="nav-vendors"></a>
-                    <ul class="file_menu"><li style="padding-top:10px;"><a href="/vendors" class="secondary">Vendors List</a></li><li><a href="/vendors_application" class="secondary">Vendors Application</a></li></ul>
+                    <li><a id="vendors-nav" href="/vendors" class="nav-vendors"></a>
+                    <ul><li style="padding-top:10px;"><a href="/vendors" class="secondary">Vendors List</a></li><li><a href="/vendors_application" class="secondary">Vendors Application</a></li></ul>
                     </li>
                     <li><a id="gallery-nav" href="/gallery" class="nav-gallery">&nbsp;</a></li>
                     <li>
