@@ -145,6 +145,19 @@ h1 {
 	text-transform:uppercase;
 	font-size:40px;
 	}
+	
+#vendors-content3 h1 {
+	color:#FFF;
+	border-bottom:none;
+	margin:0 30px 20px 30px;
+	text-align:center;
+	line-height:40px;
+	font-family: 'Asul', sans-serif;
+	text-transform:uppercase;
+	font-size:40px;
+	border-bottom:2px dotted #fff;
+	}	
+	
 #vendors-content2 h1 {
 	color:#FFF;
 	border-bottom:none;
