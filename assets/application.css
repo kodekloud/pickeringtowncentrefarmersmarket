@@ -232,7 +232,7 @@ h4 {
 /*  visibility: visible;*/
 /*}*/
 
-li:hover ul { display: block; }
+li:hover ul { display: block; visibility:visible;}
 
 .gallery-thumbnail{
     width:94px; 
