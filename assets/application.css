@@ -235,6 +235,7 @@ h4 {
   display: block;
   opacity: 1;
   visibility: visible;   
+  background-color:white;
 }
 
 .gallery-thumbnail{
