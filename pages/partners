@@ -4,7 +4,9 @@
     $('.content-top').attr("id", "partners");
 </script>
 <style>
-
+    #partners-content img{
+        float:left;
+    }
 </style>
 <div id="partners-content">
     <h2>Partners</h2>
