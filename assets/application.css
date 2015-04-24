@@ -226,12 +226,13 @@ h4 {
 	color:#cbe19b;
 	}
 #nav  ul li ul li:hover { color:#cbe19b; }
-#nav  ul li:hover ul {
-  display: inline-block;
-  opacity: 1;
-  visibility: visible;
-}
+/*#nav  ul li:hover ul {*/
+/*  display: inline-block;*/
+/*  opacity: 1;*/
+/*  visibility: visible;*/
+/*}*/
 
+li:hover ul { display: block; }
 
 .gallery-thumbnail{
     width:94px; 
