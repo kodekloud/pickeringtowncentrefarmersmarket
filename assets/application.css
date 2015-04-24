@@ -225,18 +225,12 @@ h4 {
 	color:#cbe19b;
 	}
 #nav  ul li ul li:hover { color:#cbe19b; }
-/*#nav  ul li:hover ul {*/
-/*  display: block;*/
-/*  opacity: 1;*/
-/*  visibility: visible;*/
-/*}*/
-
-.vendors-nav-list:hover{
+#nav  ul li:hover ul {
   display: block;
   opacity: 1;
-  visibility: visible;   
-  background-color:white;
+  visibility: visible;
 }
+
 
 .gallery-thumbnail{
     width:94px; 
