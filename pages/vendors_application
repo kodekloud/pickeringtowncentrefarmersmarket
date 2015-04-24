@@ -361,6 +361,7 @@
                 <label>Number of sales areas required:</label>
                 <select id="number-area">
                     <option value="0" selected="selected" disabled>-Please Select-</option>
+                    <option value="0">0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -371,6 +372,7 @@
                 <label>Number of extra tables required:</label>
                 <select id="number-table" >
                     <option value="0" selected="selected" disabled>-Please Select-</option>
+                    <option value="0">0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
