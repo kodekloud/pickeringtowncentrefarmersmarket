@@ -285,11 +285,13 @@
         margin-top:7px;
     }
 </style>
-
-<div id="vendors-content2" class="mCustomScrollbar _mCS_1">
-    <div id="thankyou_section" style="display:none">
+    <div id="vendors-content" style="display:none">
         <h1 class="dotted">Vendors Application</h1>
     </div>
+
+
+<div id="vendors-content2" class="mCustomScrollbar _mCS_1">
+
     <div class="mCustomScrollBox mCS-light-thick" id="mCSB_1">
         <div class="mCSB_container" >
             <h1 class="dotted">Vendors Application</h1>
