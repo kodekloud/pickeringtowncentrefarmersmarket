@@ -201,8 +201,7 @@ h4 {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  
-display:none;
+  visibility:hidden;
 
 }
 
@@ -231,7 +230,11 @@ display:none;
 /*  visibility: visible;*/
 /*}*/
 
-#nav li:hover ul { display: block;  opacity:1;}
+#nav li:hover ul { 
+    display: block;  
+    opacity:1;
+    visibility:visible;
+}
 
 .gallery-thumbnail{
     width:94px; 
