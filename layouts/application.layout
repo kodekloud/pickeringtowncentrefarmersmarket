@@ -96,7 +96,7 @@ function clearActiveMenu(){
                     <li><a id="events-nav" href="/events" class="nav-events">&nbsp;</a></li>
                     <li><a id="partners-nav" href="/partners" class="nav-partners">&nbsp;</a></li>
                 
-                    <li><a id="vendors-nav" href="/vendors" class="nav-vendors">&nbsp;</a>
+                    <li><a id="vendors-nav" href="/vendors" class="nav-vendors"></a>
                     <ul><li style="padding-top:10px;"><a href="/vendors" class="secondary">Vendors List</a></li><li><a href="/vendors_application" class="secondary">Vendors Application</a></li></ul>
                     </li>
                     <li><a id="gallery-nav" href="/gallery" class="nav-gallery">&nbsp;</a></li>
