@@ -206,6 +206,7 @@ h4 {
   visibility: hidden;
 
 }
+li:hover ul { display: block; }
 #nav  ul li ul li { 
   background: #292322; 
   display: block; 
