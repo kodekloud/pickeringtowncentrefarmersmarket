@@ -84,7 +84,7 @@ function clearActiveMenu(){
     
 </head>
 
-<body style="zoom: 1;">
+<body>
     <div id="wrap">
         <div class="content-top" id="home">
             <div id="nav">
