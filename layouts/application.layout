@@ -24,10 +24,9 @@
 
 <!--<script src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/145b5617a2a85b6ef2c3d662b08bcfcd/plugin.js"></script>-->
 <!--<script src="/datepicker.js"></script>-->
-<link href="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/145b5617a2a85b6ef2c3d662b08bcfcd/datepicker.css" rel="stylesheet">
-<script src="http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/145b5617a2a85b6ef2c3d662b08bcfcd/datepicker.js"></script>
-
-
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+ 
+   <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
  
 
 
