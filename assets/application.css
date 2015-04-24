@@ -509,6 +509,19 @@ background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209
 	font-family: 'Asul', sans-serif;
 	text-transform:uppercase;
 }
+
+#vendors-content3 {
+	background-image: url(http://kodekloud.s3.amazonaws.com/sites/552fd83f6e6f643209000000/8f2ef62faf60dfca698e609b937986ec/contentbg-vendors.png);
+	background-repeat: no-repeat;
+	height:600px;
+	width:360px;
+	float:right;
+	margin:35px 35px 0 0;
+	text-align: center;
+	padding:30px 30px 30px 30px;
+	font-family: 'Asul', sans-serif;
+	text-transform:uppercase;
+}
 #vendors-content ul, #events-content ul{
 	padding:0;
 	margin:0;
