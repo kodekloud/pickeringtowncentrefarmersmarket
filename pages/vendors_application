@@ -297,7 +297,7 @@
     <div class="mCustomScrollBox mCS-light-thick" id="mCSB_1">
         <div class="mCSB_container" >
             <h1 class="dotted">Vendors Application</h1>
-            <form class="vendors-application" onsubmit="return validateApplication()" action="/vendors_thankyou">
+            <div class="vendors-application form" onsubmit="return validateApplication()" action="/vendors_thankyou">
                 <h2>Farmers' Market</h2>
                 <p style="line-height:25px;">Pickering Town Centre would like to invite you to submit your application for Pickering Town Centre Farmers’ Market, running every Tuesday from June 17th to October 14th, 2014 from 11am to 6pm. Please note we only have openings for the 2015 season at this point.</p>
                 
@@ -409,7 +409,7 @@
                 <h3>APPLICATION SUBMISSION</h3>
                  <p class="setup">Please click 'Submit' below to submit your application. A member of our marketing team will be in contact with you.</p>
             
-                <input type="submit" value="Submit" class="submit-btn"/>
+                <input type="button" onclick="" value="Submit" class="submit-btn"/>
             </div>
         </div>
     </div>
