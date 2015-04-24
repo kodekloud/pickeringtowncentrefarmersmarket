@@ -128,7 +128,7 @@
                 {
                     console.log('pass');
                     $('#vendors-content2').hide();
-                     $('#vendors-content').show();
+                     $('#vendors-content3').show();
                 },
                 error: function (jqXHR, textStatus, errorThrown)
                 {
@@ -285,7 +285,7 @@
         margin-top:7px;
     }
 </style>
-    <div id="vendors-content" style="display:none">
+    <div id="vendors-content3" style="display:none">
         <h1 class="dotted">Vendors Application</h1>
     </div>
 
