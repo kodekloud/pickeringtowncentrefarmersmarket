@@ -231,7 +231,7 @@ display:none;
 /*  visibility: visible;*/
 /*}*/
 
-#nav li:hover ul { display: inline-block;  opacity:1;}
+#nav li:hover ul { display: block;  opacity:1;}
 
 .gallery-thumbnail{
     width:94px; 
