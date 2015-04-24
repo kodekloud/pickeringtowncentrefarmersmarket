@@ -127,8 +127,8 @@
                 success: function(data, textStatus, jqXHR)
                 {
                     console.log('pass');
-                    $('#mCSB_1').hide();
-                     $('#thankyou_section').show();
+                    $('#vendors-content2').hide();
+                     $('#vendors-content').show();
                 },
                 error: function (jqXHR, textStatus, errorThrown)
                 {
