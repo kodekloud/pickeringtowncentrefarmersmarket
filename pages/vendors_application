@@ -115,26 +115,7 @@
         }
         
     
-       // $.post( "http://mallmaverickstaging.com/send_contact_email", { 'send_to': "ardalan@mobilefringe.com", 'subject': "Farmers' Market Vendors Application", 'body': {"Business Name": $('#business-name').val(), "Contact Name": $('#contact-name').val(), "Address": $('#address').val(), "Phone Number":$('#phone-number').val(),"Fax Number":$('#fax-number').val(), "Email" : $('#email').val(), "Ontario Farm Registration Number":$('#registration-number').val(), "Number of Weeks": $('#season-check').val(), "Start Date": $('#datepicker').val(), "Hydro": $('#hydro-check').val(), "Number of sales areas required": $('#number-area').val() , "Number of extra tables required": $('#number-table').val() , "List of Specific items to be sold":$('#item-list').val()} });
-        
-        
-        
-        
-         $.ajax({
-                url : "http://mallmaverickstaging.com/send_contact_email",
-                type: "POST",
-                data : { 'send_to': "ardalan@mobilefringe.com", 'subject': "Farmers' Market Vendors Application", 'body': {"Business Name": $('#business-name').val(), "Contact Name": $('#contact-name').val(), "Address": $('#address').val(), "Phone Number":$('#phone-number').val(),"Fax Number":$('#fax-number').val(), "Email" : $('#email').val(), "Ontario Farm Registration Number":$('#registration-number').val(), "Number of Weeks": $('#season-check').val(), "Start Date": $('#datepicker').val(), "Hydro": $('#hydro-check').val(), "Number of sales areas required": $('#number-area').val() , "Number of extra tables required": $('#number-table').val() , "List of Specific items to be sold":$('#item-list').val()} },
-                success: function(data, textStatus, jqXHR)
-                {
-                    console.log('pass')
-                },
-                error: function (jqXHR, textStatus, errorThrown)
-                {
-                    console.log('failed');
-                }
-            });
-        
-        
+        $.post( "http://mallmaverickstaging.com/send_contact_email", { 'send_to': "mark@mobilefringe.com", 'subject': "Farmers' Market Vendors Application", 'body': {"Business Name": $('#business-name').val(), "Contact Name": $('#contact-name').val(), "Address": $('#address').val(), "Phone Number":$('#phone-number').val(),"Fax Number":$('#fax-number').val(), "Email" : $('#email').val(), "Ontario Farm Registration Number":$('#registration-number').val(), "Number of Weeks": $('#season-check').val(), "Start Date": $('#datepicker').val(), "Hydro": $('#hydro-check').val(), "Number of sales areas required": $('#number-area').val() , "Number of extra tables required": $('#number-table').val() , "List of Specific items to be sold":$('#item-list').val()} });
         
         return true;
 
@@ -213,6 +194,9 @@
         color: #ffffff;
         font-size: 90%;
         float:left;
+    }
+    option{
+        color:black;
     }
     textarea{
         width:100%;
