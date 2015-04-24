@@ -35,13 +35,7 @@
 
 
 <script>
- $(".test").hover(function() {
-    $("#tests").show("slow");
-  }, function(){
-    $("#tests").hide("slow");
-  });
- });
- 
+
  
 function clearActiveMenu(){
     $('#home-nav').removeClass('nav-home-active');
