@@ -23,7 +23,8 @@
 
 <script>
  $(document).ready(function() {
-    function renderPageData(){        
+    function renderPageData(){   
+        console.log(getPostList());
         renderGetList('#vendors_list_template', '#vendors_list', getPostList(), "vendors");
     }     
     loadMallDataCached(renderPageData);
