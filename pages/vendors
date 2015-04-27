@@ -24,7 +24,7 @@
 <script>
  $(document).ready(function() {
     function renderPageData(){   
-        renderGetList('#vendors_list_template', '#vendors_list', getBlogByName("farmers' market vendors"), "vendors");
+        renderGetList('#vendors_list_template', '#vendors_list', getBlogByName("farmer vendors"), "vendors");
     }     
     loadMallDataCached(renderPageData);
  });
