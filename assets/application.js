@@ -5,7 +5,6 @@ function renderGetList(item_template_id,not_empty_section_id,stores,option){
     Mustache.parse(item_template_html);
 
     $.each( stores , function( key, val ) {
-        console.log(val);
         if (count % 2 == 0){
             val.textColor = "green";
         }
