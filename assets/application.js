@@ -8,9 +8,12 @@ function renderGetList(item_template_id,not_empty_section_id,stores,option){
             val.textColor = "green";
         }
         count+=1;
-        
-        var str = (val.description).trim();
-
+        var str;
+        if(option == 'vendors'){
+            str = (val.body).trim();
+        }else{
+            str = (val.description).trim();
+        }
         if(str == "" || str == null){
             val.optionSlug = '';
         }else{
