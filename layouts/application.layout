@@ -30,7 +30,7 @@
 
 
 <script>
-    setEndPoint('http://londonderry.mallmaverick.com/api/v2/londonderry/all.json');
+    setEndPoint('http://www.pickeringtowncentre.com/api/v2/PTC/all.json');
      $(document).ready(function(){
 
      $(".test").hover(function() {
