@@ -33,6 +33,15 @@
                 renderGallery('#gallery_template','#gallery-items',repoList);
             }
             loadMallDataCached(renderPageData);
+            
+            
+            $("#gallery-content").mCustomScrollbar({
+				scrollButtons:{
+					enable:true
+				},
+				theme:"light-thick"
+			});
+
         });
         
         
