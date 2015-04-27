@@ -34,12 +34,12 @@
                 
                 
                             
-            $("#gallery-content").mCustomScrollbar({
-				scrollButtons:{
-					enable:true
-				},
-				theme:"light-thick"
-			})
+                $("#gallery-content").mCustomScrollbar({
+    				scrollButtons:{
+    					enable:true
+    				},
+    				theme:"light-thick"
+    			})
             }
             loadMallDataCached(renderPageData);
             
