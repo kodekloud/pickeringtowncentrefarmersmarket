@@ -18,7 +18,7 @@ function renderGetList(item_template_id,not_empty_section_id,stores,option){
         if(str == "" || str == null){
             val.optionSlug = '';
         }else{
-            val.optionSlug = '../' + option + '/' + val.slug;
+            val.optionSlug = '../' + posts + '/' + val.slug;
         }
     
         
