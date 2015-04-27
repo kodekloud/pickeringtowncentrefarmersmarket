@@ -30,7 +30,7 @@
 
 
 <script>
-    setEndPoint('http://farmersmarket.mallmaverick.com/api/v2/farmersmarket/all.json');
+    setEndPoint('http://londonderry.mallmaverick.com/api/v2/londonderry/all.json');
      $(document).ready(function(){
 
      $(".test").hover(function() {
