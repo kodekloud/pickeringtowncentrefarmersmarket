@@ -10,7 +10,7 @@ function renderGetList(item_template_id,not_empty_section_id,stores,option){
         }
         count+=1;
         var str;
-        if(option == 'vendors'){
+        if(option == 'posts'){
             str = (val.body).trim();
         }else{
             str = (val.description).trim();
