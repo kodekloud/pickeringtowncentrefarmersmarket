@@ -3,8 +3,9 @@ function renderGetList(item_template_id,not_empty_section_id,stores,option){
     var count = 1;
     var item_template_html = $(item_template_id).html();
     Mustache.parse(item_template_html);
+    console.log
     $.each( stores , function( key, val ) {
-        console.log(val.name);
+        console.log(val);
         if (count % 2 == 0){
             val.textColor = "green";
         }
