@@ -12,7 +12,7 @@
                <ul id="vendors_list">
                <script id="vendors_list_template" type="x-tmpl-mustache">
                         <li>
-                            <a class="{{textColor}}" href="{{optionSlug}}">{{name}}</a>
+                            <a class="{{textColor}}" href="{{optionSlug}}">{{title}}</a>
                         </li>
                         
                 </script>
@@ -25,8 +25,8 @@
 
 <script>
  $(document).ready(function() {
-    function renderPageData(){        
-        renderGetList('#vendors_list_template', '#vendors_list', getEventsList(), "events");
+    function renderPageData(){     
+        renderGetList('#vendors_list_template', '#vendors_list',  getBlogByName('main'), "events");
     }     
     loadMallDataCached(renderPageData);
  });
