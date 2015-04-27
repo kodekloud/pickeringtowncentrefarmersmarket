@@ -25,7 +25,7 @@
  $(document).ready(function() {
     function renderPageData(){   
         console.log(getBlogByName('main'));
-        renderGetList('#vendors_list_template', '#vendors_list', getBlogByName('main'), "vendors");
+        //renderGetList('#vendors_list_template', '#vendors_list', getBlogByName('main'), "vendors");
     }     
     loadMallDataCached(renderPageData);
  });
