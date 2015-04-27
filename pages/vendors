@@ -24,7 +24,7 @@
 <script>
  $(document).ready(function() {
     function renderPageData(){   
-        getBlogByName('main');
+        console.log(getBlogByName('main'));
         //renderGetList('#vendors_list_template', '#vendors_list', getPostList(), "vendors");
     }     
     loadMallDataCached(renderPageData);
