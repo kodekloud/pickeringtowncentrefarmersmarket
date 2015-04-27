@@ -57,7 +57,7 @@
         
         $.each( repo , function( key, val ) {
             console.log(val.name);
-            if( val.name == "farmers-gallery"){
+            if( val.name == "Farmers' Gallery"){
                 $.each( val.images , function( key, val ) {
                     item_list.push(val);
                 });
