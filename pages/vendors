@@ -24,7 +24,7 @@
 <script>
  $(document).ready(function() {
     function renderPageData(){   
-        renderGetList('#vendors_list_template', '#vendors_list', getBlogByName('main'), "posts");
+        renderGetList('#vendors_list_template', '#vendors_list', getBlogByName('vendors'), "vendors");
     }     
     loadMallDataCached(renderPageData);
  });
