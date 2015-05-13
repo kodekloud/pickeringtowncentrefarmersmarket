@@ -35,7 +35,7 @@
 <script>
  $(document).ready(function() {
     function renderPageData(){     
-        renderGetList('#vendors_list_template', '#vendors_list',  getBlogByName('farmer events'), "events");
+        renderGetList('#vendors_list_template', '#vendors_list', '#"empty_list_template', '#vendors_list_second', getBlogByName('farmer events'), "events");
     }     
     loadMallDataCached(renderPageData);
  });
