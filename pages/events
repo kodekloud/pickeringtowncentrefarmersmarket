@@ -18,14 +18,11 @@
                 </script>
                 
             </ul>
-            <ul id="vendors_list_second">
-               <script id="empty_list_template" type="x-tmpl-mustache">
-                        <li>
-                            <p>There are currently no events scheduled. Please check back again.</p>
-                        </li>
-                        
-                </script>
-                
+            <ul id="empty_list_template" style="display:none;">
+                <li>
+                    <p>There are currently no events scheduled. Please check back again.</p>
+                </li>
+
             </ul>
         </div>
     </div>
@@ -35,7 +32,7 @@
 <script>
  $(document).ready(function() {
     function renderPageData(){     
-        renderGetList('#vendors_list_template', '#vendors_list', '#"empty_list_template', '#vendors_list_second', getBlogByName('farmer events'), "events");
+        renderGetList('#vendors_list_template', '#vendors_list', '#"empty_list_template', getBlogByName('farmer events'), "events");
     }     
     loadMallDataCached(renderPageData);
  });
