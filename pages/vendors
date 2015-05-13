@@ -16,6 +16,12 @@
                 </script>
                 
             </ul>
+            <ul id="empty_list_template" style="display:none;">
+                <li>
+                   
+                </li>
+
+            </ul>
         </div>
     </div>
 </div>
