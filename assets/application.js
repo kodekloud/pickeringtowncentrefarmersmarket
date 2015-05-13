@@ -23,6 +23,11 @@ function renderGetList(item_template_id,not_empty_section_id,stores,option){
     });
     if(stores.length > 0){
         $(not_empty_section_id).show();
+        $(empty_section_id).hide();
         $(not_empty_section_id).html(item_list.join(''));
+    }else{
+        $(not_empty_section_id).hide();
+        $(empty_section_id).show();
+        $(empty_section_id).html(item_list.join(''));
     }
 }
