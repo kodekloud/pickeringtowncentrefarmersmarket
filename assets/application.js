@@ -2,6 +2,7 @@ function renderGetList(item_template_id,not_empty_section_id,empty_section_id,it
     var item_list = [];
     var count = 1;
     var item_template_html = $(item_template_id).html();
+    var item_template_empty_html = $(item_empty_template_id).html();
     Mustache.parse(item_template_html);
 
     $.each( stores , function( key, val ) {
