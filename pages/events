@@ -20,7 +20,7 @@
             </ul>
             <ul id="empty_list_template" style="display:none;">
                 <li>
-                    <p>There are currently no events scheduled. Please check back again.</p>
+                    <p class="green">There are currently no events scheduled. Please check back again.</p>
                 </li>
 
             </ul>
