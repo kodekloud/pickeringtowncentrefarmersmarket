@@ -1,8 +1,7 @@
-function renderGetList(item_template_id,not_empty_section_id,empty_section_id,item_empty_template_id, stores,option){
+function renderGetList(item_template_id,not_empty_section_id,empty_section_id, stores,option){
     var item_list = [];
     var count = 1;
     var item_template_html = $(item_template_id).html();
-    var item_template_empty_html = $(item_empty_template_id).html();
     Mustache.parse(item_template_html);
 
     $.each( stores , function( key, val ) {
@@ -29,6 +28,5 @@ function renderGetList(item_template_id,not_empty_section_id,empty_section_id,it
     }else{
         $(not_empty_section_id).hide();
         $(empty_section_id).show();
-        $(empty_section_id).html(item_list.join(''));
     }
 }
