@@ -18,6 +18,15 @@
                 </script>
                 
             </ul>
+            <ul id="vendors_list_second">
+               <script id="empty_list_template" type="x-tmpl-mustache">
+                        <li>
+                            <p>There are currently no events scheduled. Please check back again.</p>
+                        </li>
+                        
+                </script>
+                
+            </ul>
         </div>
     </div>
 </div>
