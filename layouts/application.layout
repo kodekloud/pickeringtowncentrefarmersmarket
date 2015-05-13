@@ -32,6 +32,8 @@
 
 <script>
     setEndPoint('http://www.pickeringtowncentre.com/api/v2/PTC/all.json');
+            sessionStorage.setItem('primary_locale', 'en-CA');
+        sessionStorage.setItem('secondary_locale', 'fr-CA');
      $(document).ready(function(){
 
      $(".test").hover(function() {
