@@ -44,5 +44,5 @@ function sortByName(a, b){
     var bName = b.title;
 
   
-    return ((aName > bName) ? -1 : ((aName < bName) ? 1 : 0));  
+    return ((aName < bName) ? -1 : ((aName > bName) ? 1 : 0));  
 }
