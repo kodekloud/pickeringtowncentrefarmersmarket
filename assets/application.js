@@ -5,6 +5,12 @@ function renderGetList(item_template_id,not_empty_section_id,empty_section_id, s
     var item_template_html = $(item_template_id).html();
     Mustache.parse(item_template_html);
 
+     if (option == 'vendors'){
+        $.each( stores , function( key, val ) {
+            store_list.push(val);
+        });
+     }
+
     $.each( stores , function( key, val ) {
         if (count % 2 == 0){
             val.textColor = "green";
@@ -12,7 +18,7 @@ function renderGetList(item_template_id,not_empty_section_id,empty_section_id, s
         count+=1;
         var str = (val.body).trim();
 
-        if(str == "" || str == null){
+        if(str === "" || str === null){
             val.optionSlug = '';
         }else{
             val.optionSlug = '../' + option + '/' + val.slug;
