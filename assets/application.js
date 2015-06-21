@@ -23,9 +23,7 @@ function renderGetList(item_template_id,not_empty_section_id,empty_section_id, s
         var item_rendered = Mustache.render(item_template_html,val);
         item_list.push(item_rendered);
     });
-    if (option == 'vendors'){
-        item_list.sort(sortByName);
-    }
+
     if(stores.length > 0){
         $(not_empty_section_id).show();
         $(empty_section_id).hide();
