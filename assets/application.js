@@ -17,7 +17,7 @@ function renderGetList(item_template_id,not_empty_section_id,empty_section_id, s
             val.optionSlug = '../' + option + '/' + val.slug;
         }
     
-      
+        val.name;
         var item_rendered = Mustache.render(item_template_html,val);
         item_list.push(item_rendered);
     });
