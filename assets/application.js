@@ -9,6 +9,8 @@ function renderGetList(item_template_id,not_empty_section_id,empty_section_id, s
         $.each( stores , function( key, val ) {
             store_list.push(val);
         });
+        store_list.sort(sortByWebDate);
+        item_list = store_list;
      }
 
     $.each( stores , function( key, val ) {
@@ -22,9 +24,6 @@ function renderGetList(item_template_id,not_empty_section_id,empty_section_id, s
             val.optionSlug = '';
         }else{
             val.optionSlug = '../' + option + '/' + val.slug;
-        }
-        if (option == 'vendors'){
-            store_list.push(val);
         }
         var item_rendered = Mustache.render(item_template_html,val);
         item_list.push(item_rendered);
