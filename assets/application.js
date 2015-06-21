@@ -9,7 +9,7 @@ function renderGetList(item_template_id,not_empty_section_id,empty_section_id, s
         $.each( stores , function( key, val ) {
             store_list.push(val);
         });
-        store_list.sort(sortByWebDate);
+        store_list.sort(sortByName);
         stores = store_list;
      }
 
