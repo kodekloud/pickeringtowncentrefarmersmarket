@@ -30,3 +30,10 @@ function renderGetList(item_template_id,not_empty_section_id,empty_section_id, s
         $(empty_section_id).show();
     }
 }
+
+function sortByName(a, b){
+    var aName = a.name;
+    var bName = b.name;
+
+    return ((aName > bName) ? -1 : ((aName < bName) ? 1 : 0));  
+}
