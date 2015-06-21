@@ -10,6 +10,8 @@ function renderGetList(item_template_id,not_empty_section_id,empty_section_id, s
             store_list.push(val);
         });
         store_list.sort(sortByName);
+        
+        console.log(store_list);
         stores = store_list;
      }
 
@@ -43,6 +45,6 @@ function sortByName(a, b){
     var aName = a.name;
     var bName = b.name;
 
-    console.log(a);
+  
     return ((aName > bName) ? -1 : ((aName < bName) ? 1 : 0));  
 }
