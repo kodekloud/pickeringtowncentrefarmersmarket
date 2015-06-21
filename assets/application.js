@@ -1,6 +1,6 @@
 function renderGetList(item_template_id,not_empty_section_id,empty_section_id, stores,option){
     var item_list = [];
-    var item_rendered = [];
+    var store_list = [];
     var count = 1;
     var item_template_html = $(item_template_id).html();
     Mustache.parse(item_template_html);
@@ -17,7 +17,9 @@ function renderGetList(item_template_id,not_empty_section_id,empty_section_id, s
         }else{
             val.optionSlug = '../' + option + '/' + val.slug;
         }
-    
+        if (option == 'vendors'){
+            store_list.push(val);
+        }
         var item_rendered = Mustache.render(item_template_html,val);
         item_list.push(item_rendered);
     });
