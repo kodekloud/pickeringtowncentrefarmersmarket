@@ -37,5 +37,6 @@ function sortByName(a, b){
     var aName = a.name;
     var bName = b.name;
 
+    console.log(aName);
     return ((aName > bName) ? -1 : ((aName < bName) ? 1 : 0));  
 }
